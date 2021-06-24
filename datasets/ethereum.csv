@@ -1,0 +1,1673 @@
+subreddit,title,selftext
+ethereum,"Eth 2.0 and ""what will happen to your ETH""","Can we get a sticky regarding this topic? It'd clear up the daily convo on this sub a great deal.
+
+**What is ETH 2.0?:**
+
+A series of upgrades to the Ethereum network explained [here](https://ethereum.org/en/eth2/).
+
+
+**Do I have to do anything?:**
+
+No. This is an update to the network itself, Ether held in your wallet or on an exchange or anywhere else is still the same after the merge.
+
+**What will happen to the price?:**
+
+Who knows.
+
+**When will it be released?:**
+
+At some point in the future. ETH2 is series of features/fixes with separate development work and release dates. PoS itself might see an accelerated release this year but there are no guarantees. You can follow the Ethereum dev teams work if you wish to keep closer tabs.
+ 
+**Answers to all of these questions can be found on the [ethereum.org](https://ethereum.org/) site.**
+
+* [Staking](https://ethereum.org/en/eth2/staking/)
+* [Proof-of-Stake](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/)
+* [ETH2 in general](https://ethereum.org/en/eth2/)
+* [_Ethereum itself_](https://ethereum.org/en/what-is-ethereum/)
+
+u/Tyra3l provided a link to https://ethmerge.com/, which does a great job of summing things up."
+ethereum,Daily Discussion Thread,"**Welcome to the Daily Discussion. Please read the disclaimer, guidelines, and rules before participating.**
+
+Disclaimer:
+
+Though karma rules still apply, moderation is less active on this thread than on the rest of the sub. Therefore, consider all information posted here with several liberal heaps of salt, and always cross check any information you may read on this thread with known sources.
+
+## Rules:
+
+* All [sub rules](https://www.reddit.com/r/Ethereum/about/rules/) apply in this thread.
+* Discussion topics must be related to Ethereum.
+* Behave with civility and politeness. Do not use offensive, racist or homophobic language.
+* Comments will be sorted by newest first.
+
+Useful Links:
+
+* [Ethereum.org](https://ethereum.org)
+* [ETHHub](https://ethhub.io/)
+* [ETHMerge.com](https://ethmerge.com/)
+
+**Reminder**
+
+/r/ethereum is a community for discussing the technology, news, applications and community of Ethereum. Discussion of the Ether price or trading is not allowed. Please keep those discussions to [/r/ethfinance](https://www.reddit.com/r/ethfinance) and [/r/ethstaker](https://www.reddit.com/r/ethstaker)."
+ethereum,This really puts ETH’s energy consumption in perspective.,
+ethereum,Stolen Ethereum,"I must say, I didn’t think this would happen to me. I made one slight mistake and ALL of my hard earned and accumulated ETH gone in 47 seconds.
+
+I downloaded Metamask and it looks like it was from a phishing site, imported my wallet and all of my ETH was stolen.
+
+I don’t really know what to do or think. I took all actions, filing a police report, NFIB report. Contacting Metamask, binance, I even tried tracking the transactions myself. I noticed transactions on the Binance Smart Chain and wondered if Binance could assist, no luck. 
+
+I’m just posting this as a reminder for anyone that sees this. Please be extra careful, think not twice but three times before you execute a trade or move aby of your crypto. Just avoid this dumb browser extension wallets at all costs. 
+
+Losing such a large sum of money is crazy, but losing that much ETH is even worse. I don’t know how I will feel when ETH eventually doubles, triples in value. 
+
+My heart is torn right now and my stomach feels bottomless. I just wish I had thought twice before doing what I did and I could have saved myself so much grief. I guess i’m posting this to not only bring awareness, but to vent.
+
+I hope none of you go through this.
+
+Editing to include my new hardwallet address. Someone suggested I post it and see what happens 😣
+
+0x077D48Ea1e5f1dafdac786db439F7348BC8B1DC6"
+ethereum,"Nvidia CEO: Ethereum Is Going To Be Quite Valuable, Transactions Will Still Be A Lot Faster",
+ethereum,Strapped in and ready for takeoff. 🚀⏳🚀,"Finally off the dang staking wait list after 4 months!!
+
+I have officially committed myself to the bondage and masochistic ritual that is converting to Ethereum 2.0. 
+
+No control, no safeword, just totally helpless to hodl. Yes it will hurt to see it Rollercoaster up and down and all around while being able to do absolutely nothing...but I think it will ultimately lead to one of the greatest climaxes we have ever seen. 🌋"
+ethereum,Best ETH communities to discuss and learn,"Hey everyone, I'm learning more about crypto (particular ETH and the ERC-20 ecosystem) and wanted to know what are the best sources of information and communities to check where things are being built, new concepts introduced, etc.
+
+I've joined some Discord channels and subreddits but wanted to introduce a list so we can always follow the latest and greatest on crypto. I'd like to create this post so people could propose their favorite channels of information so I can organize it to help all newcomers to the Ethereum ecosystem!"
+ethereum,To all those who prematurely rang the death knell of the NFT revolution... NFTs aren't dead: they're just getting warmed up,
+ethereum,Geth v1.10.4 released - London testnet compatibility and snap sync enabled,
+ethereum,Fox to Invest $100 million in Making NFTs for Shows Despite Market Crash,
+ethereum,Blockster social network for cryptocurrency lovers - Crypto DeFinance,
+ethereum,Staking question,Why go through all the hassles of becoming a validator when you can stake with something like lido.fi with similar APR?
+ethereum,What do you guys recommend moving my ETH from metalmask,"I’m mining ETH and having my wallet send to my metal mask account. Where can I stake my ether for long term? I am in New York so Coinbase does not offer APY, and I can’t use binance. Gemini has I think 2% APY, and I have a ledger device."
+ethereum,"From Egypt.eth to Cloud.eth this wallet has most of the names I have thought of using for domains, this one wallet. People like this already capitalizing on asset class, you will buy from them, not ENS.",
+ethereum,Cheeky Crypto Interviews SingularityDAO (AI DeFi) CEO Marcello Mari,
+ethereum,Criminals are mailing hacked Ledger devices to steal cryptocurrency,
+ethereum,Statelessness + state expiry,"I have long wanted to write a post about this, but have been patiently waiting for some concrete progress. This happened today, with Vitalik's update with a provisional roadmap with proto-EIPs: [A state expiry and statelessness roadmap - HackMD (ethereum.org)](https://notes.ethereum.org/@vbuterin/verkle_and_state_expiry_proposal)
+
+Currently, the single greatest bottleneck to scalability is state bloat. You need a 1 TB SSD to run a full node reliably with some future-proofing, and some have complained that's already too much. As the network is used, the state will only keep growing. The only recourse to manage state thus far has been to severely limit scalability.
+
+There are two concepts that are being proposed right now to solve this long-standing challenge:
+
+# Weak statelessness
+
+In the weak statelessness scheme, only block proposers and full nodes will need to hold full state. All other nodes, including attesting validators, can run a stateless client and verify blocks without actually storing state. How this works: (oversimplifying) you don't need to hold the state, but just need a succinct (in the literal sense) proof, called a witness, to verify state.
+
+This concept has been around, but the issue thus far was that even the witnesses were too large. The technology is finally ready to enable very small witnesses: Verkle trees.
+
+Currently, Ethereum's state is stored as hexary trees. We know the beacon chain has the concept of epochs where blocks are justified and finalized. As per this proto-EIP, Ethereum will have a new time scale: Period. One period will be approximately one year. To enable statelessness, a hardfork will freeze the pre-fork hexary tree (Period 0), while all new data appended or accessed post-fork will live in the new Verkle tree (kicking off Period 1).
+
+Whenever stateless clients are ready post the transition to Verkle trees, all regular users will be able to verify statelessly. As mentioned before, block proposers will still need to hold the full state. This will be controversial, but the important thing here is to have a culture of users verifying, and that is accomplished by weak statelessness. Gas limits can now be increased, and while block proposers will have to upgrade their systems, regular users might actually see a decreased system requirement with stateless clients despite higher scalability.
+
+Of course, strong statelessness, where even blocks can be proposed statelessly will remain a future problem to be solved.
+
+# State expiry
+
+A lot of Ethereum's state hasn't been accessed in years. Yet, all nodes are burdened with this data forever. What if you could only hold the relevant, recently accessed data, while archive (again, literally) lapsed data? Proposals around state rent, state expiry and regenesis have suggested similar schemes, but now we have a concrete proto-EIP. For the longest time, state expiry and statelessness were considered competing solutions to the same problem, but amazingly, now they are both being implemented together!
+
+Each period, state from two periods (\~years) ago is frozen and archived. In state expiry, full nodes and block proposers will only need to store state from two periods - the current and the previous. Users looking to verify transactions will continue to verify statelessly.
+
+The state expiry hard fork happens at the beginning of Period 1, or roughly 1 year after moving to Verkle trees and enabling weak stateleness. Here, the pre-statelessness Period 0 hex tree will be replace with a Verkle tree. I'd expect from Period 3, the Period 1 state will expire, and so on.
+
+Overall, both combined, state management will be effectively be solved, and we can start increasing gas limits without worrying about long-term state bloat. However, expect this increase to be moderate, around 3x is suggested by Vitalik. I believe this to be a very conservative estimate, particularly with SSDs continuing to become more affordable. Now, we have mainstream $400-$500 game consoles (well, when they're available) shipping with extremely fast 1 TB NVMe SSDs. By the time statelessness + state expiry ship, I fully expect budget laptops to feature 1 TB and above SSDs. Further, clients like Erigon are putting in a lot of work to optimize this. So, I'd optimistically expect a 5x-10x increase in scalability instead while still reducing system requirements compared to now, though of course. Of course, as SSDs becomes more affordable over time, we can scale linearly now that we have predictable state management.
+
+Users can revive expired data by providing a witness proof and paying gas to have the corresponding data reappended to the active tree . What about expired state? There can obviously be archive nodes (clarification: not to be confused with archival nodes, I meant archive in the literal sense here - basically like a full node is currently. But I can't call it a full node because under the state expiry scheme the new full nodes will only be 2 periods.) which can continue to contain the full state. This will almost certainly be very, very expensive, so we'll need some sort of infrastructure for expired state. I believe Solana is exploring using Arweave for similar state rent schemes, though I wasn't able to find any details. IPFS, BitTorrent, Filecoin and others are all options.
+
+# Rollups and sharding
+
+State management is crucial for rollups, because they are designed around having immense state bloat. Because the entire rollup state can be reconstructed from L1, they can be even more innovative and flexible with how they approach this. Things like regenesis are easily done. Rollups can be the perfect way to battle-test these new schemes being proposed. I'd expect Optimistic Ethereum, for example, to transition to Verkle trees and state expiry well before Ethereum mainnet does with much shorter periods given it already has an archival mechanism on L1. Of course, rollups will benefit directly from whatever scalability upgrades state management brings to L1 as well.
+
+Statelessness + state expiry will directly multiply sharding execution, as each shard will also feature these scalability improvements. Though, given the scalability improvements statelessness + state expiry bring to the single execution chain, and the scalability rollups + data sharding offer, would we even need executable shards in the foreseeable future? Seems doubtful to me. I wasn't able to find any concrete information on how the current proposals will directly affect data shards, but I'd expect many of these concepts to be adapted for it in the future.
+
+# Concluding
+
+Proof-of-stake will solve sustainability. Rollups + data sharding will solve scalability. State size management was the last remaining challenge, and it's being met head on with some real, concrete proposals now. One could argue that privacy and VM innovations are a further pending challenge: but I'd expect rollups to better better address these. Indeed, we're seeing this with Aztec being privacy-focused, while zkSync 2.0 introduces LLVM and StarkWare has built a quantum-resistant StarkNet OS. Of course, learnings from these rollups can be adopted on L1 if desired."
+ethereum,Mark Cuban Calls for DeFi Regulation After His Crypto Investment Goes to Zero,
+ethereum,CIO of ExoAlpha believes Bitcoin is going to outperform Ethereum near-term. (It's not bad news for Ether though),
+ethereum,"This is my DD on Overline, a cross chain interoperability protocol that allows cross chain trading without wrapped tokens and without validators but in a truly decentralized fashion through pow. I'd appreciate it if you took the time to read my DD and let me know what you think of my conclusions.",
+ethereum,"Golem Beta II is out - we introduce the services API, combined with the Service Model development documentation",
+ethereum,Why are ERC20 tokens even needed?,So Ethereum can be used for any and every transaction on the Ethereum network. Then why are ERC20 tokens even needed when we can just use Ethereum?
+ethereum,Singapore’s PSB Academy launches Ethereum-hosted blockchain diploma,
+ethereum,So I got eth. Now what ?,"So after months of considering Eth ancient technology , I decided wth let’s get a couple eth. 
+
+The sentiment around eth is so strong that I have officially changed my thought process that Ada/dot/sol would eat up eth. 
+
+I just cannot justify NOT having a few Eth in my portfolio 
+
+So .... no what ?
+
+Ps - I intend to hold this eth for a while. What are my options ?"
+ethereum,TITAN falls nearly 100% in latest Polygon DeFi exploit,
+ethereum,2 Ethereum Projects Are Officially Merging; 'Keanu' Aims for August Launch,
+ethereum,Attack On Titan - The Daily Gwei #271,
+ethereum,"Ethereum Timelines with Tim Beiko | EIP 1559, Merge, End of PoW, PoS, ETH 2.0",
+ethereum,Website to watch ETH burn in real time thanks to EIP-1559,
+ethereum,"Bitcoin has 3 flaws — and that could set the stage for other alternatives, says Cornell economist",
+ethereum,"Interview with Coder of Aavegochi - Nick Mudge, Building on Ethereum and Polygon",
+ethereum,Michael Saylor Has Changed His Mind on Ethereum,
+ethereum,Reputation in Web3: Ships Built on the Great Flood,
+ethereum,Gitcoin Grants GR10 - Donate to Open Source projects to help build the ecosystem - donations matched by quadratic funding.,
+ethereum,Ethereum Improvement Proposal (EIP) 1559 Set to Have First Testnet Block,
+ethereum,Announcing the ChainSafe Gaming SDK: an open-source library allowing gaming developers to bridge your gaming engine to the Web 3.0 ecosystem,"Hi all!
+
+[Tim](https://twitter.com/haochizzle) from [ChainSafe](https://chainsafe.io/) here :)
+
+We are avid open-source contributors and a blockchain protocol and infrastructure research and development firm working on a variety of ecosystems including Ethereum, Polkadot, Filecoin, Cosmos, Mina, and many more.
+
+We recently announced the release of our open-source ChainSafe Gaming SDK.
+
+🎉 [Announcing ChainSafe Gaming: An SDK to bridge your gaming engines to the Web 3.0 ecosystem](https://medium.com/chainsafe-systems/announcing-chainsafe-gaming-an-sdk-to-bridge-your-gaming-engines-to-the-web-3-0-ecosystem-f33aa27c7a98) 🎉
+
+**What is the ChainSafe Gaming SDK?**
+
+We are the first open-source blockchain gaming library of its kind to be multi-token standards (ERC-20, 721, 1155), multi-blockchains (supporting Ethereum, Polygon, Binance Smart Chain, xDai, Moonbeam, and Avalanche), and multi-marketplaces.
+
+Similar to our avoidance of chain-maximalism (we deeply believe in open collaboration), we also designed our SDK to be gaming engine agnostic, with current support for the Unity engine, with Unreal and Godot soon to come.
+
+Installing is as simple as dragging and dropping the SDK file into Unity! By using the ChainSafe Gaming SDK, gaming developers can now bridge their gaming applications into the cryptoeconomics of the Web 3.0 ecosystem (through the use of a simple login interface with Web3 wallets like Metamask, Walletconnect, and more).
+
+**So what?**
+
+This enables fascinating features like tying in-game micro-transactions like skins or items to NFT's, which can itself be portable over to other games and ecosystems. Or imagine use-cases where you can port over a character or player's progress/stats as an NFT to a different environment. Needless to say, we are extremely excited for the future this will enable for gaming!
+
+**What is Web 3.0?**
+
+What is Web 3.0? In the Web 2.0 paradigm, we can read, write, and interact with all manners of websites and services on the internet. But trust remains a critically unsolved issue, as all setups requires some degree of centralization or trust. In the Web 3.0 paradigm, you can now read, write, interact, and **verify.** What does this mean? Since the blockchain itself verifies all state transitions, ""transactions"" (or messages) that get passed along within the network need not be managed by some centralized entity (like a server). The trust instead falls on an open-sourced protocol. In this sense, value can now be trustlessly transmitted across the internet via the blockchain (see [Juan Benet's talk](https://www.youtube.com/watch?v=l44z35vabvA) for a much more succinct explanation than mine :P). This is what is creating the massive amounts of hype (whether deserved or undeserved) and value with blockchain ""tokens"" and ""NFTs"" you probably hear about all the time...
+
+With the ChainSafe Gaming SDK, we just made it easier for game developers to bridge their games into the Web 3.0 economy.
+
+**Call to action**
+
+You can read more about the specifics of the announcement in our newest Medium blog post [here](https://medium.com/chainsafe-systems/announcing-chainsafe-gaming-an-sdk-to-bridge-your-gaming-engines-to-the-web-3-0-ecosystem-f33aa27c7a98).
+
+We are calling on game developers to join in the conversation in our [Discord](https://discord.gg/CprJHjrWG6) by joining the #gaming channel. If you have a fascinating idea you'd like to discuss with our Head of Gaming [Leon Do](https://twitter.com/_LeonDo_), please don't hesitate to drop-in and say hi! We are looking for *committed* builders and users of the SDK.
+
+Build with us! Check out the ChainSafe Gaming SDK Github repo [here](https://github.com/ChainSafe/web3.unity). Documentation can be found [here](https://chainsafe.github.io/game-docs/).
+
+Finally, if you'd like some quick YouTube tutorials of how this all works, check out our playlist [here](https://www.youtube.com/playlist?list=PLPn3rQCo3XrM3qOkth64yWF7ctkhzb5BF).
+
+\---
+
+If you're curious about any of our other work, we would **love** to hear from the community. If you'd like, drop us a message here on Reddit, or on our [Twitter](https://twitter.com/chainsafeth).
+
+With love from the ChainSafe team,
+
+[Tim](https://twitter.com/haochizzle)
+
+*Mods: hope this post isn't out of place!*"
+ethereum,Can someone please explain what “staking” is like I’m a 5 year old..? I don’t think I’m quite understanding what the benefits of it are and also how to even stake my ether.,
+ethereum,using trust wallet to buy a coin with max eth to use and it still leaves over $18 after transaction?,why is it when trying to buy coins with the max eth use it still leaves over $18 worth left over . it’s kind of like Eth is ripping me off !!! how many people can that be done to ?
+ethereum,Staked ETH 2.0 Stolen?,"Question:
+
+Can staked ETH 2.0 be hacked and stolen? What exactly is a staking pool anyway, a form of a hot wallet? Cold? 
+
+If a hacker is in fact able to steal ETH, are they able to send coins immediately, or does the unbonding period still need to take place?
+
+Thanks."
+ethereum,Announcing DeFi Alliance India Chapter,
+ethereum,Inflation is NOT Transitory - Paul Tudor Jones CNBC Interview,
+ethereum,Strawpoll: Who is the most influential person in crypto in 2021?,
+ethereum,MicroStrategy CEO Michael Saylor Warms Up To Ethereum (ETH) – AronBoss,
+ethereum,"Ethereum's Opensea recently launched a feature to “freeze” NFT metadata, enabling creators to properly decentralize their NFTs using IPFS &amp; Filecoin",
+ethereum,Why I do not believe decentralization is possible.,
+ethereum,DEV POLL Cardano ERC-20 converter? will u use it?,"Cardano has smart contracts functionality coming and wondering what Eth dev interest is? Will Eth devs use this or is this more a matter of loyalty? Will Eth devs remain ""loyaL' to Eth or use both? Is it possible to use both? \*newb status sorryyy\*
+
+[View Poll](https://www.reddit.com/poll/o25z5x)"
+ethereum,EIP-3074 will bring batch transactions and sponsored transactions to Ethereum,
+ethereum,Rollup Rollup! Top Layer 2 Compared — Arbitrum vs Optimism vs Polygon,
+ethereum,SushiSwap AMA with Indexed Finance Today at 17:00 UTC / 1:00 PM EST,
+ethereum,Unstoppable Domains gives back over $100m in credits to customers and adds eight more blockchain domains to its roster.,
+ethereum,Goldman Sachs expanding its crypto services to include Ethereum.,
+ethereum,Risks of staking ETH,"I'm considering staking my ETH and saw this on [ethereum.org](https://ethereum.org) \-- "" Although you can earn rewards for doing work that benefits the network, you can lose ETH for malicious actions, going offline, and failing to validate. ""
+
+If I stake on a pool like Coinbase, what are the risks associated with staking? I am planning to hold onto my ETH for years and do not need to sell/withdraw in the near future. Is there any possibility of the 2.0 merger not happening and me potentially losing my ETH?"
+ethereum,Need an Ethereum Podcast for work,Title says it all. I’ll be bored and doing tedious tasks all day and want to learn all about ethereum. I already own a decent amount but I want to fully dive in.
+ethereum,“Ethereum on Polkadot” Integrates with Unifty to Let Its Users Mint NFTs,
+ethereum,POW -&gt; POS,"Hey , I read that the POW to POS move could happen before the ETH. 2 upgrade?
+
+Any news?"
+ethereum,How do I view an NFT on the ETH blockchain itself?,"How do I see an actual NFT on the ETH blockchain? 
+
+What does it look like on the blockchain? Is it code? Is it the binary data of whatever image/video/3d model that exists in the NFT?
+
+Can anyone provide an example NTF on the ETH blockchain I can see?"
+ethereum,Staking vs Validator,Anyone running a validator node right now? What’s your experience? Why did you run a node vs staking? Seems to me that staking is the same as the return rate would be the same while having much less responsibility. Am I wrong?
+ethereum,Index publisher MSCI looking at launch of crypto indexes,
+ethereum,Kyber Partners with Polygon to Enhance DeFi Liquidity; Launches ~$30M Rainmaker Liquidity Mining Program,
+ethereum,"Understanding Defi Options (Opyn, Hegic, SIREN, Ribbon Finance, and more)",
+ethereum,Understanding mStable and its Smart Contracts,
+ethereum,How to learn Solidity in 30 days,
+ethereum,EIP-1559: I worked on a website to showcase the ETH burned!,
+ethereum,The Boy Who Could DeFi: Meet the 13-Year-Old Who Built a $7M Money Manager on Ethereum,
+ethereum,Yieldly (YLDY) on Algorand (ALGO) is Launching it's first ASA-ERC20 Bridge,"Yieldly, the first Defi project launched on Algorand, has been operational for a few weeks now. It currently has a little more than $17.7 million TVL. It currently features no-loss lotteries (to win ALGO and YLDY tokens) and YLDY staking.
+
+**HOW DOES THIS RELATE TO ETHEREUM?**
+
+Yieldly is set to launch the first ASA-ERC20 bridge (and the first Algorand bridge) soon. This will allow wrapped YLDY to be be purchased through Uniswap and bridged to Algorand for staking and participating in the no-loss lottery.
+
+The details: [https://yieldly.finance/yieldly-bridges-a-world-first/](https://yieldly.finance/yieldly-bridges-a-world-first/)
+
+Other items on the near term roadmap:  Bridge to BSC and POLY, NFT lotteries and multi-winner lotteries.
+
+Security audit performed by Halborn."
+ethereum,Crypto for the homeless. Can your crypto do this? Pizza for all,
+ethereum,"What is a NFT Marketplace (OpenSea, Zora, Rarible, Foundation, SuperRare &amp; Nifty Gateway)?",
+ethereum,Token Multisender App for Free,"Get the service of Token Multisender App for free with #SuperToken
+
+Visit to know more: [https://supertoken.xyz/](https://supertoken.xyz/)
+
+&amp;#x200B;
+
+https://preview.redd.it/wwivsgivys571.png?width=1080&amp;format=png&amp;auto=webp&amp;s=557dde7faacac9ae71cac5c99268a8ca94ac0e8f
+
+\#SuperToken #Cryptocurrency #Token #BEP20 #ERC20 #MultisenderApp"
+ethereum,MATIC Continues To Outdo Ethereum in Active Users and Transactions,
+ethereum,"The Three ""U""s of DeFi Ubiquity — Mapping out the hurdles DeFi will face in its quest for mainstream adoption 🗺",
+ethereum,Michael Saylor on Ethereum (06/15/2021),
+ethereum,What is the price of ETH2 coins right now? Or is it still in sandbox state?,"Per coinbase:
+
+&gt; [Although ETH2 is not available to trade, you can add it to your watchlist, read news, and more with a Coinbase account.](https://www.coinbase.com/price/ethereum-2)
+
+Seems as though there is a lot of misinformation about ETH and ETH2. Some people think it's live and tradable. It's not. 
+
+Some people are wondering how is it being staked and priced if it's not being traded. You are being purposefully misled.
+
+
+Comparison | Eth | ETH2
+---------|----------|----------
+Price | ~$2300 | $0 (Isn't trading) 
+Currently Trading | Yes | No 
+Can be purchased | Yes | No 
+Miners | Yes | No
+Validators | No | Yes"
+ethereum,Ethereum Genesis whale moving funds,[https://etherscan.io/address/0xaf10cc6c50defff901b535691550d7af208939c5](https://etherscan.io/address/0xaf10cc6c50defff901b535691550d7af208939c5)
+ethereum,Question on Etherscan and Geth/Erigon,"if anyone can help me please: [https://etherscan.io/tx/0x89a1ed3d7e57c752a3b195ed4b584f7ac2c68e6ad532907596d7f108a90847ad/advanced](https://etherscan.io/tx/0x89a1ed3d7e57c752a3b195ed4b584f7ac2c68e6ad532907596d7f108a90847ad/advanced)
+
+internal transactions tab lists all the transactions with the gas Limit
+
+call\_6 has a limit of 30,046 but erigon and geth debug\_traceTransaction doesnt return a gas or gas used fields
+
+how is this number calculated?
+
+erigon output ,{""type"":""CALL"",""from"":""0x7a250d5630b4cf539739df2c5dacb4c659f2488d"",""to"":""0xf43c68d57f92adfaf2173422d487259a789d9b2f"",""value"":""0x148e25f9594227c"",""input"":""0x"",""output"":""0x""}\]}"
+ethereum,Portal Network - Trin Development Update #1,
+ethereum,ETH to Erc20 token wallet.,"My friend just sent all his ETH in a Tfuel wallet. He is a noob, thought he was exchanging ETH for Tfuel this way. Is ETH lost or is there any chance ETH to be recovered. He is using Trust Wallet. Eth was his birthday gift from me.
+
+Edit: He is such a noob that now he is looking into recovering ETH using a scam webiste that asks for his seed 🤦‍♂️
+https://community.trustwallet.com/t/how-to-recover-funds-sent-to-a-wrong-public-address/145
+
+Warning !! Link redirects to a scam website asking for your seed. Never give out your seed *except for if your gf asks for it."
+ethereum,"Alex Gluchowski: zkSync -- The First EVM-Compatible zkRollup Protocol, Epicenter Episode #396",
+ethereum,Why aren't more blockchains implementing proof of history?,I have a very skeptical view of proof of history because all I hear is how fast it makes the blockchain. I am wondering what the drawbacks are and why it isn't more widely discussed / adopted?
+ethereum,"Mark Cuban Is Now Backing This Ethereum, Chainlink Data Project",
+ethereum,UNICEF to invest Ethereum in startups in Argentina and Mexico," The international organization for the protection of children's rights, UNICEF, announced that it will invest in seven startups from six countries, the amount being sent in the cryptocurrency Ethereum (ETH).
+
+In Latin America, those selected were Argentina and Mexico, which will have a company from each country receiving a contribution of US$ 100,000. African countries such as Kenya and Rwanda; and in Asia, India, and Nepal were the others selected, which should obligatorily use blockchain technology in their innovations.
+
+In the case of Argentina, it was noteworthy that UNICEF chose a financial education startup to receive the aid. In other words, the intention is to encourage the use of cryptocurrencies in the country, teaching children and young people to handle the new technology and escape the high regional inflation.
+
+UNICEF invests US$100,000 in Ethereum in Argentine financial education startup."
+ethereum,Ethereum Node Installed on the International Space Station,
+ethereum,We are so early on ETH DeFi,
+ethereum,Announcing the Raiden Light Client v1.0.0 “Ashvini” Mainnet Release,
+ethereum,Why projects being built on Ethereum don't need Silicon Valley,
+ethereum,Meme Stonks - The Daily Gwei #270,
+ethereum,Exploring Uniswap V3 and a Multi-L2 Future with Noah and Moody,
+ethereum,BTC smart contracts vs ETH smart contracts,"CoinGeeks references an article from medium, but they go a bit more indepth. apparently BTCs smart contracts are better. what do you guys think? i posted something yesterday, but obviously this sub was going to side with ETH.
+
+[Bitcoin vs Ethereum smart contracts - CoinGeek](https://coingeek.com/bitcoin-vs-ethereum-smart-contracts/)"
+ethereum,Tim Berners-Lee is Minting the Original Source Code for WWW as an NFT,
+ethereum,Comparing Ethereum Gas Estimators: How Blocknative Gas Platform Stacks Up,
+ethereum,Added layer to mass adoption,"Just a thought. 
+
+To aid in mass adoption of crypto in general, when doing odd jobs or anything where you’d ordinarily transact in cash under 100 dollars, let’s force whoever is paying to pay us in crypto, whichever it may be. 
+
+Say a buddy asks for a ride and is willing to pay 10-20 dollars. Instead of accepting cash, agree to the deal only if they pay in crypto. 
+
+If they don’t know how, kindly assist them with setting up an account and allowing you to watch every step of the way, as well as confirming the numbers with them before you send to your wallet from theirs. 
+
+1. Don’t be a scumbag and send yourself 100 bucks in crypto while telling them it’s only 10 or 20 or whatever. 
+2. Show them how the fees work as well. If you agreed to say 25 dollar payment, use enough out of the 25 to cover the gas fees for them the first time, while explaining how they work and letting them know they’ll have to pay them per transaction. 
+
+
+If you’re a kid in crypto, you’re probably more tech savvy than most adults. You can probably figure out how to download the necessary things to hold crypto. 
+
+1. Pay each other in crypto for small amounts of cash. Say under 10 bucks if you’re a kid. Since you will need that cash in the short term just use small amounts. 
+2. Tell your parents to give you gift money in the form of crypto. Forces them to use the technology and"
+ethereum,"I have a big interest to enter the Fintech and blockchain industry.. But, I have a lot of afraid and questions . Plz Help me","Hi,   hope you're doing well ! . I really need your help, I have a big interest to enter the Fintech industry .I have a lot of questions, but  the most important question is "" **Does a Blockchain industry is good industry for future** "".
+
+If The blockchain is a pretty good industry, **What problems could face anyone in this industry? I mean that I've read articles that said that the blockchain is the next internet generation and praised the industry a lot and others, but others said It's nothing , unstable and SALARIES DEPEND ON HOW HIGH ARE THE CRYPTOCURRENCIES AND THE DEMAND ON THEM, and it is just a phenomenon**. How could you see that ? + Is that so right ?
+
+So , I'm so afraid of all of these, and I really need your opinion as professional people , because I'm torn between entering this profession and avoiding it.
+
+**The  sth that I'm so afraid, and I don't know how to make my decision for reasons I said before . So if you were me ?? What is ur opinion??? I really need ur advice**
+
+Thanks a lot in advance :D"
+ethereum,NFT + Drugs + Farming = Crypto Junkies," If you like some of the concept above, keep reading…
+
+Hi everyone, too much noise about NFT in the past months, so why not add some funny items to the mix. A group of friends and I are creating this new game concept, when you will have your CJ (Crypto Junkie avatar/character) and must consume drugs in forms of farmable tokens in order to not die and survive through the season. Becoming your CJ more valuable than the others that passed away (Deleted).
+
+The reason that I writing this is because we need clever and active people, no matter your skills or experience; we need participative people, involved and commitment with the project.  
+
+We don’t have plans to monetize as of yet, this is only for the experience and fun, this is an opportunity to become part of a team with other developers, financials and game-theorists people, to complete an heterogeneous group and putting your name in a big and remarkable game.
+
+Some the drugs, seasons features, CJ interactions in-game and other mechanics stuff still need to be fine-tuned out in a test environment. 
+
+Be part at this early stage, build an ambitious NFT game with Us and let fly high together, PM are available or just post your ideas below, ask anything I’m happy to answer you thanks!"
+ethereum,ENS on L2?,"I'm just theorycrafting in my head here, and I'd like to get some input on what is possible and what is not. Currently (to my very basic knowledge) ENS means having to do all adjustments on Ethereum mainnet.
+
+What is the possibility of moving ENS onto L2, while having the information/adjustments being done on L2 count on Ethereum mainnet?
+
+Obviously, I'm not sure this is a good idea, but still, having to do stuff on L1 is limiting. The problem I'm kind of sensing is that usually you ""move stuff"" from L1 to L2 and back. Here you'd have to say that ""whats real on L2 is real on L1"".
+
+&amp;#x200B;
+
+Any input on this idea? Any simpler way to combat the bother of having to do nitty gritty details on Ethereum mainnet? I might just be out of my mind. Thanks!"
+ethereum,Nearly 1% Of Bitcoin Supply Is Now Wrapped In Ethereum,
+ethereum,"For the first time in my life I could purchase Ethereum directly from an ATM here in Geneva (Switzerland)! I could also purchase Bitcoin, Litecoin and Monero",
+ethereum,Nvidia CEO: We’re Moving Towards a Crypto Metaverse,
+ethereum,Why is Metamask not compatible with non-Ethereum blockchain objects?,"Was just thinking, how is it that exchange wallets (like a Binance or Gemini account) and other wallets like Trust or Exodus are compatible with various cryptos, but Metamask is not? Is there a technical term for this difference?
+
+Edit: I understand that Metamask is an 'Ethereum explorer' so it would only NEED to be compatible with Ethereum blockchain, but I'm wondering what technology it is exactly that enables other wallets to be multi-blockchain-compatible.
+
+Edit 2: Or am I visualising it all wrong (I came across the statement that wallets don't actually HODL any crypto -- they technically are just keys) and actually a wallet just acts a key that various different blockchains can accept?
+
+Edit 3: It seems like e.g. Trust is actually an account that compiles a bunch of different wallet addresses and keys for different blockchains, so it's actually an aggregated wallet, not a single address that's compatible with a bunch of blockchains... So maybe i've answered my own question. Would still love to have someone who's more familiar with this weigh in though."
+ethereum,I have a simple question,"Ethereum -&gt; Ethereum 2.
+
+We are all awaiting this with great anticipation. I hope it goes well, but a question in the back of my mind keeps bothering me.
+
+Why should developers wait potentially years for Ethereum 2 to fully arrive, when more and more newer (and perhaps more technically capable) blockchains are either introducing or already have their own Ethereum Virtual Machines?
+
+Developers can wait forever on Vitalik to fulfill his promises, or they can deploy their smart contract on a network that offers similar, same or even better (no transaction fees, high throughput etc) .... today. Even if the developers would rather stay on Ethereum, I imagine some Tech Lead or CEO type could easily force entire teams to make the switch. Shit, the developers might even end up liking whichever new blockchain they end up on and that'll be that.
+
+Where do you see this going?"
+ethereum,"for transaction request to be performed, you need Ether and I cannot figure out this ""chicken or egg was first?"" style question - how first Ether was created in order to be able ""do staff""?","I hope I was able to express myself. So my understanding is that, one needs to have Ether in order to request a transaction in Etherium network, this way miners get their cut, and this is essentially how things work on the network. When we convert USD to ETH, we are buying it from someone. But my question is, where this pool of Ethers are from? Is it like, someone(creator?) created an account with enough Ether so system can operate? or I am really confusing some of the core syntax of Etherium network"
+ethereum,Current standard for ineracting with Ethereum?,"Been out of the ecosystem for a little while, when I left everyone was using web3.js but there was a lot of noise around Ethers.js. Has anything come of this, or is the standard still web3.js (or are people using a different framework altogether)?"
+ethereum,Switzerland’s Sygnum Bank is launching custody and trading across a range of Ethereum-based DeFi,
+ethereum,The ethereum.org website has gotten so good over time!,"So I had a talk about crypto with a non-technical family member recently. They knew a bit about Bitcoin from mainstream media but nothing further really. Of course I told them I'm excited about Ethereum and its tech and future.
+
+A few weeks later I talk to them again. Suddenly they're asking me questions about Dapps, DeFi and sharding(!). Turns out they found the [ethereum.org](https://ethereum.org) website and read most of the learning pages. I was really impressed with their knowledge so I went to check it out afterwards.
+
+The site has improved so much over time! The text seems very understandable for a general audience. All the nice artworks surely help too. I especially like [the page on the ETH2 vision](https://ethereum.org/en/eth2/vision/).
+
+Big thumbs up to everyone who contributed 👍"
+ethereum,Encrypt / decrypt with Ethereum wallet?,"Let's say Alice wants to send Bob an encrypted message - both know each others' ETH addresses. 
+
+Alice writes a message, signs it with her private key, encrypts it using Bob's public key, and sends it to Bob. 
+
+Bob gets the message in his email and he uses his wallet to decrypt the message and verify that Alice signed it. 
+
+Is this general message sending possible with standard Ethereum wallets? I know that message signatures are common, but I haven't seen encrypted messages as much.
+
+I know this should be possible if you have access to the raw private key but I'm hoping to be able to use hardware wallets for decryption as well."
+ethereum,Which wallet for ENS?,"If you have an ENS address, which of your wallets did you connect it to? Software wallet (Metamask) or cold storage (i.e Ledger)?"
+ethereum,Ethereum (ETH) Wallet | Buy Ethereum with Credit Card | Guarda Crypto Wallet,
+ethereum,"Goldman Sachs announces Ethereum futures, institutional interest grows",
+ethereum,Announcing ChainSafe Gaming: An SDK to bridge your gaming engines to the Web 3.0 ecosystem,
+ethereum,Question about staking. If you stake ethereum is it 6% at the live price or the price you originally bought at?,
+ethereum,Hi! Just wanted to know where can I find current use cases on the Ethereum blockchain.?,
+ethereum,Cheatsheet: 1559 for Wallets &amp; Users,
+ethereum,QuickSwap Metrics,
+ethereum,Implementation of Dividend-Paying Token - 7 Key Takeaways,
+ethereum,"Goldman Sachs may offer options and futures trading in Ether, the cryptocurrency linked to the Ethereum blockchain",
+ethereum,bitcoin taproot,"im sorry in advance, if there was already a post about this. i dont see any search function.
+
+So bitcoin, as you've all heard, is coming out with a taproot upgrade that allows smart contracts. am I understanding this correctly? What does this mean for Ethereum? If bitcoin can allow smart contracts as well, what other advantage does Ethereum have over Bitcoin than?"
+ethereum,"Add to your calendar Ethereum (ETH) event: Ropsten Fork - June 24, 2021",
+ethereum,Zapper Zaps Its Own Vulnerability Before Hackers Do -- The Defiant,
+ethereum,"De-Collateralize, an Alternative to Collateral Backed Loans -- Will Villanueva",
+ethereum,"ConsenSys, Hong Kong university launch Ethereum-powered Covid passport",
+ethereum,A very interesting article on how the defi/smart contract space is ripe for innovation - from Andreessen Horowitz,
+ethereum,Ethereum $ETH gas fees have plunged to a six-month low. Here's why:,
+ethereum,"Decentralized Finance: What It Is, Why It Matters - Future, a16z",
+ethereum,25% of all ETH is being utilized in smart contracts,
+ethereum,A small preview of our Taylor IDE built with Marks Factory (Taylor is the only EVM interpreted language in Ethereum),
+ethereum,A Business Idea: Trading Pools Automated with Smart Contracts,"Yo guys, I'm just a trader with a very low coding skills. If you think I don't know what I am talking about, please tell me so. Also, please show me similar successful websites (not shady bs $5 bots). I know this is not the first time someone thinks an idea like that, so please don't bash me :)
+
+\--
+
+I've been trading crypto for some time now. I was asked, like most of us, for help trading. I helped some people learn, I traded for friends and family, etc. I was thinking what if I offered this as a service.
+
+The idea goes like this: I have a pool in a contract. People can connect their wallets, and their funds are locked for a period of time. In the meantime, I trade using Uniswap. I get some percentage out of their profits automatically, the rest is delivered to their wallets. They can get their all money after a lockup period or whenever they want.
+
+It can also be like a market place. The beauty of this would be all trades are open. They can see past data, trades, and results. So, trading pool owner won't be able to fake results as everything is in the blockchain.
+
+Something like this can bring successful traders and investors together, like hedge funds. Yet, the hedge funds only work with big clients and they are not available to public. Successful traders cannot trade with other people's money, because, regulations and shit. So, this should solve a lot of problems.
+
+What do you guys think?  
+
+
+One example (not affiliated)- -&gt; [https://zignaly.com/](https://zignaly.com/)"
+ethereum,Rocket Pool has changed its tokenomics... again.,
+ethereum,Who's paying the Devs to make dapps?,When you work on a Capp you have its founder/ceo paying you. But how does a dapp developer get paid? How can dapps be better than the centralised ones if there's less incentive to maintain the dapp than the capp?
+ethereum,The French national football team have become the first national football team to issue NFTs on Ethereum 🇫🇷,
+ethereum,Sorare NFT fantasy football world expands to French National soccer team - Crypto DeFinance,
+ethereum,Ethereum to improve the scalability value of institutional-grade access to DeFi by Sygnum Bank (Switzerland),
+ethereum,DeFi Summit Day 1 Panel,
+ethereum,"Goldman Sachs Plans to Start Trading Ethereum Options, Futures",
+ethereum,Goldman Sachs will offer ether options for crypto clients: report $ETH 🚀🚀🚀,
+ethereum,An Ethereum journey in a few words,"An Ethereum journey in a few words : 
+
+ETH --&gt; The DAO --&gt; ETC --&gt; ICO --&gt; DEX --&gt; UNI --&gt; DeFi --&gt; Stablecoins --&gt; NFT --&gt; Beacon --&gt; The Merge...
+
+What's beyond ?
+
+DAO ?"
+ethereum,Building an ecosystem of think-tank DAOs on Ethereum,"I've been wondering about the prospects, operationally and financially, of establishing a research unit as a DAO, one whose procurement of intellectual content may be monetizable via native currency, be it ETH or some more specialized one built upon Ethereum.
+
+Are there any examples of think tanks, schools, or other research-based institutions launched as DAOs? Any legacy institutions that have launched some kind of auxiliary DAO?
+
+Provided such an infrastructure is economically feasible, there could be good prospects for advancing the velocity of innovation across sectors, borders, and disciplines. As it is currently, there are mountains of open-source technical research, but I fear that the existing pathways of facilitating and delivering this research do not do it justice. I could be wrong, though.
+
+Imagine the prospects of a constellation of decentralized research units, with considerably lower overhead than physically-embodied centers of research, each with as sharp a focus as it deems worthwhile. Researchers could be, in effect, traveling specialists without needing to leave their computer, so long as their academic acumen is translatable to blockchain-compatible terms. A sort of academic gig economy, but without the centralized likes of Uber, etc.
+
+Intellectual property (PDFs?) as NFTs? Decentralized peer review (edit: peer-to-peer review)? Smart contracts that govern credentials instead of human academic incumbents? Niche micro-MOOCs?
+
+In a way we already see the seeds of this with the ecosystem of independent scholars using podcasts at their platforms. Just seems like a system that could benefit, one way or the other, from blockchain technology.
+
+Also, my first thought was Ethereum, but it could be an interchain ecosystem, as far as I can tell."
+ethereum,Will EIP-1559 Upgrade Turn Ethereum Into a Deflationary Asset?,
+ethereum,Rocket Pool Dev Update — June 2021,
+ethereum,"Dude, Where's My ETH? - The Daily Gwei #269",
+ethereum,What’s the best route to stake ETH which is less than 32?,I’m sure this may have been asked before but wanted to stake other than coinbase. Is there another option that offers greater that 6% APR?
+ethereum,Goldman Sachs to Offer Ethereum Futures: Report,
+ethereum,Welcome!,
+ethereum,Mark Cuban: DeFi could be the ‘next great growth engine’ for the US,
+ethereum,"EthHub Weekly #170: ETH sideways action, El Salvador makes BTC legal tender, London upgrade overview, StarkNet Planets alpha, PolygonScan launched, Alchemix launches alETH and security tips from Bobby Ong",
+ethereum,Why is Ethereum Max considered a scam?,"Why is Ethereum Max considered a scam? 
+
+This is the description I was able to find for it:  
+""EthereumMax is an ERC20 token launched with a total supply of 2 quadrillion $eMax. With no pre-sale and none held back for the development team, 100% of the tokens were released on the open market creating a fair and complete distribution of the coins. $eMax was created with the purpose of providing the world with an Ethereum based token that gives holders the security and versatility of the Ethereum blockchain while yielding rewards and enhancing the decentralization of digital assets. """
+ethereum,United Kingdom farmers now use cow dung to power Ethereum mining and increase revenue.,
+ethereum,DeFi exchange dYdX closes $65 million raise led by Paradigm,
+ethereum,EIP-1559 is going live soon as part of the London upgrade. Does anyone have any questions for the EIP-1559 team that you'd like answered?,"The next Ethereum Cat Herders ['PEEPanEIP'](https://www.youtube.com/playlist?list=PL4cwHXAawZxqu0PKKyMzG_3BJV_xZTi1F) episode will be on one of the biggest things upcoming in the Ethereum ecosystem - EIP-1559, to be delivered in the [London upgrade](https://medium.com/ethereum-cat-herders/london-upgrade-overview-8eccb0041b41).
+
+We will be sitting down with 1559 project lead Tim Beiko alongside fellow Ethereans, Barnabe Monnot and Micah Zoltu to cover the change.
+
+If you have any questions/queries about EIP-1559, things you might be unclear on, post them here as a comment by 14:00 UTC 15 June, and we will put them to our guests on the call.
+
+Edit: if there are any super straightforward ones I'll respond directly in the comments below as will free up time on the call to go into detail on the others."
+ethereum,DefiYield App Optimizes Yields and Tracks Your Portfolio! Interview with CoFounder Michael Rosmer Here!,
+ethereum,Solidity Tutorial : all about Modifiers,
+ethereum,Cryptocurrencies and Buddhism,"A new podcast episode asking what can Buddhism teach us about how cryptocurrencies works &amp; why they're so valuable? And what can Bitcoin and Ethereum teach us about emptiness, the interdependent nature of reality? [https://www.skepticspath.org/podcast/70-bitcoin-and-buddhism/](https://www.skepticspath.org/podcast/70-bitcoin-and-buddhism/)
+
+https://preview.redd.it/0l2q7r8lrg571.jpg?width=1200&amp;format=pjpg&amp;auto=webp&amp;s=93b773afcd740ddb1b6b4a67e6f8cfa2b8be0394"
+ethereum,"Do you guys know any good resources on physical nfts? Case studies, articles, example, posts, technical or not? I am not yet completely finished with this one https://a16z.com/2021/04/02/nfts-readings-resources/ but I haven’t seen anything particularly focused on physical nfts (yet). Thanks!",
+ethereum,Almost a Quarter of the Entire Ethereum Supply Is Locked,
+ethereum,Ethereum Single Sign On Might be the Future of Internet App Log in.,
+ethereum,"Ethereum DeFi Exchange dYdX Raises $65 Million From a16z, Paradigm and More",
+ethereum,"The current Ethereum 2.0 upgrade, the public blockchain that hosts the vast majority of DeFi apps, and greater adoption of layer two scaling solutions will dramatically improve the scalability and value of these DeFi services",
+ethereum,Building for Ethereum in Go (podcast with transcript),
+ethereum,What is Ethereum? | Byte-Sized Ethereum Podcast #1 hosted by Alex Botez and Topher Benson,
+ethereum,"DAOs: Aragon launches Vocdoni, Gitcoin introduces governance token, Uniswap proposal #4 on…",
+ethereum,33% Attack,"
+
+Can someone explain to me what Vitalik means in the following tweet where he states ""The system is secure against up to 33-50% attacks on the validating layer.""
+
+https://twitter.com/VitalikButerin/status/1000232465540136960
+
+Sparkpool is getting dangerously close to that 33% point, they currently sit at 31.64% of the hash-power according to this website: https://eth.btc.com/ 
+
+Can someone who understands this better than me explain why 33% is significant and if there is reason to worry and if not, then why? 
+
+Sparkpool is getting dangerously close to that 33% point, they currently sit at 31.64%"
+ethereum,Polygon Playground,
+ethereum,Goldman Expands in Crypto Trading With Plans for Ether Options,
+ethereum,Discussion L2 for Ethereum or MATIC,"Hello guys, I've been diving into Ethereum for a bit and been seeing a bit of discussion about MATIC not being a L2 for Ethereum, and many other supporting CELR as the proper L2 for it, what do you guys think about it?"
+ethereum,Why will Ethereum continue to lead?,I am mostly curious as to why ethereum will win over Solana specifically.  Solana claims to be secure and censorship resistant even with it's high speeds and scalability.  The creator seems to not be worried about the lesser amount of validators to make the blockchain more decentralized.  He believes it is decentralized enough.
+ethereum,Ethereum L2s vs. L1 Competitors,"Hello Fellow Ethereans,
+
+I’d like to get your take on this.
+
+In terms of development and ecosystem growth, do you all think that L1 competitors like Solana or Polkadot stand a chance against Ethereum L2s like Arbitrum, Optimism, or Starknet?
+
+For businesses and institutions globally, over the next decade, will it make more sense to build on another L1 or will they just build on top of their own rollups instead?"
+ethereum,Trustless referral network based on ERC-20 token based dApp,"I am not entirely sure whether this is the correct forum to discuss a new idea based on an ERC-20 token. Also, I am not sure whether this use case is already considered and proven wrong. If so, letting me know will save a lot of valuable hours. 
+
+My idea is to create a D-App, which is a trustless referral platform and curated marketplace to sell products from Amazon or any other marketplace which allows referral earnings. Anonymous users can connect their wallets to the platform and create collections based on their tastes. Whenever they create a collection, they will be awarded a certain amount for tokens. The token that users will get is a custom token that is generated specifically for this network. These users will be known as collectors.
+
+Now normal users also can join the network and browse through collections. The collectors can either make their collections free or they can add a fee so that the normal users need to pay this fee in order to visit the collection. This way the token is being circulated. The referral links for each of the products will take the users to the corresponding market place and if they made a purchase, the commission will be processed. 75% of the commission will be awarded to users who make the purchase and 25% will go to the corresponding collector. This commission is also in terms of the token that is used in the network and based on the current dollar value of the token, 
+
+I know this is very basic, but this is the idea. I am just testing whether this will work and it will be helpful if you let me know what you think about this? I am a programmer and web developer myself, so I can write smart contracts and deploy it to the network. If someone wanna join me, you are very much welcome."
+ethereum,Smart Contract Customization,"Hello! I have a question for developers on the Ethereum Blockchain. I'm  new developer on Ethereum and would like to know something about smart contracts: How customizable are smart contracts?
+
+I'm thinking of an application based on NFT trading. Could I possibly write up a smart contract to have multiple people earn royalties from a single NFT?
+
+Say Person A mints the NFT for Person B, is there a way for both of these people to gain royalties from future trades?
+
+Edit: I found my answer: [https://ethereum.org/en/nft/#fractional-ownership](https://ethereum.org/en/nft/#fractional-ownership). The possibility is definitely there, it's just about finding the implementation."
+ethereum,Roughly 23% of Ether (ETH) Supply Locked in Smart Contracts,
+ethereum,ETH Giveaway Scam on YT again. Beware and don't fall for it.,https://youtu.be/tCzE1UHnlgA
+ethereum,Ethereum Improvement Proposal (EIP) 1559 Set To Have First Testnet Block,
+ethereum,WOW SO LOW!!,
+ethereum,Do IDOs require token issuers to provide the amount of capital they are trying to raise?,"I'm trying to understand one thing about IDO's. I know that liquidity pools work as automatic market makers and evaluate the supply of one asset to the other to determine prices, so take this scenario:
+
+&amp;#x200B;
+
+Project A wants to raise $20,000,000 by selling their ERC-20 tokens. They want to list it on a DEX.
+
+&amp;#x200B;
+
+Do they need to provide $20,000,000 of ETH + $20,000,000 worth of their ERC-20 token, and then trade their ERC-20 tokens for ETH as the pool is filled with ETH and drained of their token? 
+
+&amp;#x200B;
+
+or am I getting this completely wrong?"
+ethereum,Weekly outflows from Ethereum investment products hit an all-time high.,
+ethereum,What are the chances of an ETH hard fork?,"Controversial idea, but what are the chances that the mining pool doesn’t play along with the ETH 2.0 upgrade and there is a hard fork?
+
+There are a lot of people making good money and heavily invested in ETH mining that are probably not too happy about losing their revenue stream.  I also see that the time that the ETH could be tied up and rewards of staking ETH for 2.0 aren’t particularly incentivising compared to some other staking rewards offered by other tokens, so I’m wondering what the chances are of there being a hard fork?"
+ethereum,Why has daily active ethereum addresses dropped so sharply recently?,
+ethereum,Ethereum EIP1559 Testnet Block Set,
+ethereum,Layer 2 sharding solution,
+ethereum,Around 23% of ETH supply got locked in smart contracts. The ETH’s amount is somewhat equal to the DAO event. Most of ETH is locked in the Beacon Chain contract.,
+ethereum,Web 3.0 is an empty buzzword that means literally nothing.,"Cryptocurrency land throws around a lot of buzzwords, no word is thrown around more than Web 3.0. Everyone uses it to market their coin, but what does it even mean? Nothing.
+
+&amp;#x200B;
+
+It's just a tactic used by marketers to overwhelm and confuse the potential investor with buzzwords they don't understand to make them feel like they are early on the next big thing. There is nothing more to it. "
+ethereum,"QUESTION: If Metamask confirms a contract interaction, but the transaction remains unsuccessful due to network congestion, could the nonce remain neglected indefinitely?","Hi all. Please bear with the length of this post - I'm a noob and I'm trying to make sense of the nuance. Here's the context:
+
+I initiated an ERC-20 token swap through Matcha (via Uniswap, by way of a Metamask wallet) about 3 hours ago - after paying the gas fee, Matcha declared a successful trade and the contract interaction was submitted.
+
+According to Metamask, the smart contract interaction was confirmed...but, because the transaction remains pending, the token exchange has yet to occur.
+
+Between the time I initiated the transaction and the nonce made its way into the queue, the network became very congested. The gas fee I paid was about 1/3rd of what it would have been, should the transaction have been initiated a short time later.
+
+This is what leads into my question - If a contract interaction is confirmed, but the transaction remains unsuccessful due to network congestion, could the nonce remain neglected indefinitely?
+
+In other words - If it is impossible to pay the gas ""speed up"" fee, thus incentivising solving of the nonce, is the successful completion of the transaction (and the duration thereof) at risk of falling into oblivion?
+
+At the very least, I assume transaction confirmation will (at the earliest) occur once the level of network traffic declines to where it was pre-initiation...but could it, theoretically, remain unconfirmed for ***days*** if sustained congestion levels declares it a low priority?"
+ethereum,Question from a newbie,"General crypto question asking opinions, there was recently a huge crash in the market and just about all coins took a massive hit and the big ones (ETH, Bitcoin) are down a ton. With crypto gaining popularity the way it is right now is it not almost inevitable that these “stable” coins and even the less “stable” ones will rise back to close to their previous peaks? I am pretty new to crypto so I just like posting these questions and reading peoples responses as I am trying to learn as much as possible"
+ethereum,"Greg Abbott, Governor of Texas, has long been a crypto supporter. Today he signed a law that puts virtual currency under the Texas Uniform Commercial Code to be a secured transaction.",
+ethereum,"Build on Ethereum, Rigor enables homebuilders to access funds on web3, now open for beta.",
+ethereum,"EIP1271 message signing with DAO governance - will enable DAOs to interact directly with signature based order books, vote on snapshot, much more",
+ethereum,The First Step to a Permissionless ZK-Rollup - StarkNet Planets Alpha on Ropsten -- Starkware,
+ethereum,Does EIP 1559 affect the need for scaling solutions?,"Hey,  
+
+
+Does EIP 1559 affect the need for scaling solutions?  
+
+
+Thanks."
+ethereum,Is Bitcoin Maximalism Toxic For The Crypto Community? | Weekly Recap,
+ethereum,Why not (also) use hash for an NFT?,Hello! So i was wondering why most people when using the ERC721 standard use a link to the media that they want to create an NFT of. Wouldnt it be much safer to (at least also) include a hash of the media that it is linking it to? That way there is at least some kind of protection that the media isnt just changed. Anyone can just hash the file to check.
+ethereum,"Ok, so this is main question i have..Once I get to 32 ETH:I can be a validator right?.ok, so what do I do from there? What do I have to do to sustain my validation and not lose my ETH:I’m confused..I’m completely sold on Ethereum and want to become a validator but not sure what to do from there",
+ethereum,Vitalik Buterin: Ethereum 2.0 Will Bring Scalability and Open the Door to More Dapps and Enterprise Use Cases,
+ethereum,Sienta's Newsletter: No. 4 – Weekly updates on real-world assets in DeFi,
+ethereum,How to stake my ETH?,Hey guys I’m a Canadian looking to stake my ETH. I’m currently adding to my position on Shakepay (a Canadian app) but transferred some onto coinbase. I didn’t realize you have to be an American citizen to stake in coinbase. Is there any other apps that will allow a Canadian to stake? I know I can stake it myself if I had 32 ETH but I’m far from that.
+ethereum,"Overview of EIP-3540 &amp; EIP-3541 with Alex B., Paweł B., Andrei M.","**London Upgrade** 
+
+*EIP-3541: Reject new contracts starting with the 0xEF byte* has been recently added to the London upgrade. To provide an [overview of EIP-3540 &amp; EIP-3541](https://youtu.be/E02THhW-yTE), follow the recording of [PEEPanEIP](https://www.youtube.com/playlist?list=PL4cwHXAawZxqu0PKKyMzG_3BJV_xZTi1F) with  [Alex Beregszaszi](https://github.com/axic), [Paweł Bylica](https://github.com/chfast), [Andrei Maiboroda](https://github.com/gumb0).
+
+Also, watch other [London proposals](https://www.youtube.com/playlist?list=PL4cwHXAawZxppsQYazgJ3EWWWjY2vNxVp).
+
+**Resources**
+
+* Slides - https://notes.ethereum.org/@ipsilon/eof-peepaneip-presentation 
+* EIP-3540 https://eips.ethereum.org/EIPS/eip-3540 
+* EIP-3541 https://eips.ethereum.org/EIPS/eip-3541 
+* Discussion to - https://ethereum-magicians.org/t/evm-object-format-eof/5727/4 
+* London proposals playlist  - https://www.youtube.com/playlist?list=PL4cwHXAawZxppsQYazgJ3EWWWjY2vNxVp  
+
+Have you responded to the [Ethereum blockchain users and developers survey](https://docs.google.com/forms/d/e/1FAIpQLSeugRHv93fizew0zeqXFOOnQIbjbWnVHoThLJR3f3g6gVvXhQ/viewform) yet? If not consider responding now. 
+
+Check out upcoming EIPs in Peep an EIP series at https://github.com/ethereum-cat-herders/PM/projects/2"
+ethereum,A simple explanation of why we need blockchain technology,"So you know when you hear a hot stock pick and you think to yourself, ""I gotta get in on this one."" So you hope skip and jump onto your favorite trading ap, just to find out your funds are a little low. So now you need to deposit some coin So you don't miss out on the next great AMC or GME!!! You hit deposit....then.....BOOM!! ""YOUR FUNDS WILL BE AVAILABLE FOR TRADING IN 5-6 BUSINESS DAYS."" Well slap me in the nuts and steal money right out of my wallet, you think to yourself. This is why we need blockchain, eliminate that middle man and get immediate access to all that is rightfully yours. I mean why miss out on losing money with everyone else while ypu are waiting for your funds. It's money and I want it now!"
+ethereum,"Latest Ethereum Cat Herders PEEPanEIP video has been posted: PEEPanEIP #36: EIP-3540: EVM Object Format (EOF) &amp; EIP-3541: Reject new contracts starting with 0xEF byte with Alex B., Paweł B., Andrei M.",
+ethereum,Valuable Governance Tokens - The Daily Gwei #268,
+ethereum,ETH 2.0 Staking - Binance,"Hello people!
+
+While I have some spare time, I've used it to setup staking and some other stuff. I'm using mostly Binance for this and I am looking to stake my Ethereum. I can't redeem my Ethereum until ETH 2.0 Phase One which is estimated 2022. I'm just curious as to approximation on when in 2022 and whether it could realistically be delayed."
+ethereum,ETH Got Locked in Smart Contracts,
+ethereum,How to create a Non-Fungible Token (NFT) of your digital artwork,
+ethereum,Did kittieFight die?,"So I am looking for places where I can lend my ETH, and kittiefight caught my eye, but it seems no matches are active and  the last match that was held is on Oct 2020, is it dead?"
+ethereum,"The Bitcoin, Ethereum, DeFi Index",
+ethereum,L2 tokens to ETH conversion,"Hi
+
+AFAIK L2 tokens can be converted to ETH, but how does it work when L2 solutions can spring up limitlessly? How are L2 tokens regulated such that there won't be an unlimited supply?
+
+Thanks"
+ethereum,Ethereum 2.0,Does anyone know if the current is going to be the same or will there be a new separate coin called ethereum 2.0?
+ethereum,Smart Contracts on Ethereum,
+ethereum,Automobile giants adopt Blockchain standards to measure Carbon emissions,
+ethereum,How can I buy things with an ethereum wallet?,"I just want to use my ethereum to buy things like I do with a regular credit/debit card. Can I do this with anything (micro-transactions in games, general goods, online shopping like Amazon)?"
+ethereum,"List of Dead ""Ethereum Killers""","Want to know which coins advertised themselves as a competition to Ethereum aka ""Ethereum Killers"" since ETH's inception and are now dead. By dead I mean they have fallen behind in marketcap and most probably will not rise again to challenge Ethereum.
+
+The one I know from top of my head are EOS and TRX. Post some more from pre 2018, that noobs don't know about. 
+
+I need at least a dozen to send the list to newbies to show them it won't be any different this time. You ETH killer will be the one dying."
+ethereum,"This scam just came up in my youtube recommendations right now, an obvious scam but watch out people, they buy likes and views to make it ''authentic''. using Vitalik as clickbait",
+ethereum,Someone is trying to tell me Ethereum is a scam?,"I am pretty confident in the promise that Ethereum holds. However, a friend showed me this podcast episode that apparently makes the bold claim that Ethereum is a scam? 
+
+[https://www.youtube.com/watch?v=q1pSf\_akaig](https://www.youtube.com/watch?v=q1pSf_akaig) 
+
+Is there any truth to what the person is saying in this video? Or is it all bullshit?"
+ethereum,"“Ethereum Is Going To Be Quite Valuable,” says Nvidia CEO Huang.",
+ethereum,So bitcoin’s taproot has been approved. How does this affect ethereum?,"I think it is a major market inefficiency that both Bitcoin and ethereum are so correlated. I assume the 9% spike (as of this writing) in ethereum is related to the taproot news. In theory, this sounds like an improvement to what I feel is a direct rival to ethereum. How do you all feel about this? And what about the general implication that what’s good for Bitcoin is good for ethereum while what’s bad for Bitcoin is bad for ethereum? I couldn’t wrap my head around the dip in ethereum after Musk cut ties with Bitcoin. He cited the massive power consumption as a major weakness in bitcoin’s mining system. with proof of stake coming to ethereum, I would assume that should have been good news for ethereum."
+ethereum,Ethereum Etherium.,"Just curious.
+
+I see a lot of folks spelling Ethereum Etherium..
+
+Is it a  language thing? 
+
+As in you would prenauns it Etherium?"
+ethereum,"Reddit Co-Founder Alexis Ohanian on Ethereum, Meme Stocks",
+ethereum,The Interplanetary Camera,"Hello!  
+
+
+We are launching the Interplanetary Camera project and token very soon! We want to have more people involved as our ultimate goal is to fully decentralize the project, we welcome anyone looking to learn more about development, investors, entrepreneurs, and anyone who might be interested!   
+
+
+The TLDR; The interplanetary camera allows you to easily snap real life into an NFT. Over time, we will be creating an immutable record of history! We have received a few Sponsorships from POAP, Protocol Labs, and ENS. We about to go from POC to production app very soon.  Learn more about our roadmap here: [https://www.notion.so/Interplanetary-Camera-Roadmap-7c06a4b70c224c9c824bcbfa429961b9](https://www.notion.so/Interplanetary-Camera-Roadmap-7c06a4b70c224c9c824bcbfa429961b9)  
+
+
+If you want to learn more about the motivation for The Interplanetary Camera: [https://www.notion.so/Interplanetary-Camera-Motivation-ac19a145e343437bb259461766a7bf58](https://www.notion.so/Interplanetary-Camera-Motivation-ac19a145e343437bb259461766a7bf58)  
+
+
+You can also try out the app here: [snapreal.life](https://snapreal.life)  (Use Rinkeby testnet)  
+
+
+If you want to talk directly to the team, Join the discord: [https://discord.gg/zeuraFzu](https://discord.gg/zeuraFzu)"
+ethereum,What is the exact date or block number of the London hard fork &amp; EIP1559?,Can't seem to find it
+ethereum,Transferred GLM Not Showing Up Under Golem,"I transferred GLM from freewallet.org to my Coinomi Wallet.
+
+The transaction shows completed in my freewallet account.
+
+However, the balance shown in my Coinomi wallet for Golem is 0.
+
+The balance of ETH is also 0 but shows a transaction having completed: [Here is the transaction](https://etherscan.io/tx/0x36d09cefc4f81ef0bd29550310ef441e5b0365a43cb214feb6150b036b11544c).
+
+Did I goof and lose my GLM? That's gonna hurt.
+
+2021-06-13 11:55PM (EST) UPDATE: Was able to chat with a Coinomi rep (Chris), who guided me through re-loading the wallet. Now my funds show up. I'm a happy camper. :D"
+ethereum,New Internet... ETH is fuel?,"Hello all, can someone please explain this concept to me, and why this would be mass adopted. I’ve heard it said that Ethereum is the new Internet, and eth is the fuel for it. Considering for our current Internet you can pay a small monthly fee for unlimited usage, I’m wondering why people would use a new Internet that has significant fees to use for almost everything that will be done on it.
+
+Can some one help me to understand how that will ever be adopted? I’m not sure anyone really prefers to pay per use, and would prefer an unlimited use option."
+ethereum,Returning balances from smart contracts,"Hi, I have been messing with a few smart contracts, nothing serious.  I have been using remix, and a few were unsuccessful, and have been sent BNB using metamask.
+
+&amp;#x200B;
+
+Is there any function I can call to  gain the BNB back from these failed smart contracts, or are they as I'm thinking, and gone forever?
+
+&amp;#x200B;
+
+Thank you!"
+ethereum,Any rebuttal? He's a fairly famous YouTuber and what he said about vitaliks blog post is concerning if true,https://youtu.be/IVCaJYS7v3k
+ethereum,Zero Knowledge Proofs and Ethereum Potential,I am curious to learn more about what others think the potential is of ZK snark protocols in the future. It seems an obvious one might be to have reliable/trusted elections. What ideas are there for the use of these new protocols? Thanks for any input as I try to learn what I can and try to imagine the potential future.
+ethereum,Gas Fees Now - WOW!!!! --- Can it be this low forever or can it get lower?,"[https://www.gasnow.org/](https://www.gasnow.org/)
+
+[https://etherscan.io/gastracker](https://etherscan.io/gastracker)
+
+I am just moving on mainnet like wow"
+ethereum,Crypto.com DeFi Wallet Now Supports Ethereum-Based NFTs,
+ethereum,Problem: as soon as I transfer ETH to my wallet they are immediately send away.,"Hi, it's a bit more complex:
+
+Someone contacted me for help. He has an ethereum wallet with some tokens in it and he can't transfer them out of the wallet. As soon as he transfers ETH into his wallet, they are immediately send away.
+
+How can he solve this?
+
+I try to write a python script that sends the tokens to another address as soon as ETH appear. Its my first time interacting with web3 and python and I fail at specifying the ABI correctly to check how many tokens are on the wallet.
+
+But I have in mind that the thief might check each block whether he sends ETH to this wallet and immediately creates an order to send them to the thief's wallet. Would he be faster than me? Should I create multiple orders around the time when I expect the ETH to appear? 
+
+Is there any solution to this?
+
+Edits: additional info
+
+Edit: new idea: what if I bombard the wallet with small ETH amounts like 1 per 0.1 second, and try to send the tokens away? 
+- No.. That doesn't make sense ;)"
+ethereum,Yield Farming Tutorial — Part 1,
+ethereum,5yo is designing a game called CryptoEggs. Maybe I should stop walking around the house talking about blockchain 😅,
+ethereum,Trying to build a decentralized social media app. I need early adopters/feedback.,"Hi there. I am trying to build a decentralized social media app:[https://app.dogettm.com/woofwoof](https://app.dogettm.com/woofwoof) .
+
+Disclaimer: It is not currently fully decentralised. It is basically a concept test.
+
+How to use: You basically connect you wallet to any network(including test nets) and post.Use it and give your feedback either here or on the app! :)  
+
+
+AMA me anything if you like."
+ethereum,What's Dapps are currently functional?,"I'm curious if there are any apps i can use that are decentralized. Specifically, I'd like to store my photos and videos on a decentralized app, just in case the cloud rains.
+Thank you in advance."
+ethereum,Calculate your Crypto Regret,
+ethereum,Texas Governor Greg Abbott has signed a bill that recognises the legal status of virtual currencies,
+ethereum,Akropolis – Ethereum-based DeFi protocol review,
+ethereum,Trying to get funds to Matic without any Ethereum in my wallet,"I know this is a noob mistake, but it's an especially expensive one on Ethereum. I purchased some Matic on Binance and trying to transfer it to Matic network. I should've listened to the guy who suggested going through BSC but selling and rebuying Matic again seemed like more work initially (although in hindsight would have been probably easier). So I paid \~$20 to Binance to move my Matic to ERC20, figuring it would be a one-time fee that I would quickly recoup with some yield farming on Matic. I knew the bridge would cost me another $10 or so but didn't realize I could only pay that fee in Ethereum, which I don't have.
+
+Now I'm in a position where I can't even buy Ethereum with my ERC20 Matic because swap fees are in Ethereum as well (I need \~$1.7 to approve Matic/Eth swap, and then I figure another couple bucks to trade it). Moving more money to Binance to buy some Ethereum to then send it to my wallet again would probably cost me another $50 in fees or so. What are my options to get the $5-10 in Eth I need without paying another $50 to get it to my wallet? I do have about $100 on Matic network if it's possible to transfer any of that to Ethereum for cheaper?"
+ethereum,How Layer 2 Is Primed To Solve Scalability Issues of Ethereum before the Launch of ETH 2.0,
+ethereum,"Polygon and 0x have set their goal to bring 1M users to Polygon and Ethereum. For this reason, both companies will commit $10.5 million to support the goal. Both companies will support developers and projects to build robust DeFi on Polygon.",
+ethereum,"Ethereum’s EIP-1559 Goes Live Next Month, Here’s a Quick Rundown",
+ethereum,"The truth about Ethereum deflation: when you burn 🔥 more than being produced, based on 1559’s upgrade, you create deflationary conditions for #ETH. This is a necessary condition, but perhaps the sufficiency will be determined later...Regardless, you should be bullish on Ethereum if you have a brain.",
+ethereum,What do you think of Raiden network?,"I just started looking into it and figured there are probably tons of other people who already have and could help me get other perspectives that I would otherwise not get.
+
+I worry about centralization and security. Is there a small group of people that could theoretically pull out money or make more coins? I might sound silly for asking these questions, but help me out please! Thank you."
+ethereum,The Ethereum Foundation and all companies who had an ICO are the treasurers of the value that ETH/token buyers have conferred them with their dreams and efforts. It incarnates the hope that Ethereum is truly innovative. That it brings to the market the best tech. BUT ...,
+ethereum,"Borrowed this book from the local library, what do you think about this book? Is there any more other things or place I can learn more about Ethereum instead of just trading them.",
+ethereum,"Is it worth, or beneficial, staking Ethereum with less than 32 ?",
+ethereum,"Ethereum Namer Service (ENS), what it is, why you should use it and how to get started","As I do more within the Ethereum ecosystem, I plan to ""learn in public."" My goal is to share what I am learning so others may benefit. I also will use this as an exercise to improve my writing. To that end, I wrote an article on the Ethereum Name Service. It includes a brief summary of what it is, how it compares to competing services and how you can register a name with ENS.
+
+[https://dkderek.medium.com/ethereum-name-service-ens-why-and-how-to-use-it-4171a2a2c344](https://dkderek.medium.com/ethereum-name-service-ens-why-and-how-to-use-it-4171a2a2c344)
+
+Other articles currently in the works include a guide on how to use Netdata on your validator (with a focus on Rocket Pool) as well as validator VPS config guide (focus on Contabo)."
+ethereum,Recruiting Crypto Believers!!!,"Can I get some help here?  I've been trying to fight misinformation in this space since 2013 and just this week I've had more than a few requests from ""Investment"" companies on Facebook, As a private user.  Please take a minute to report this shit.  I hurts the space, reputation, and what we are trying to achieve here.  Best I could do was report and burn hours of their time.  what pisses me off the most is they titled themselves as ""Crypto Experts"" and not knowing fuck all about Ethereum.... Much appreciated in advance. &lt;3 my legitimate Crypto people."
+ethereum,Most Flexible IDE for Ethereum contracts AND dApps (beta release),
+ethereum,How did a hard fork resolve the DAO hack? Couldn't the hacker have quickly liquidated the proceeds into fiat before the fork went live? How traceable would that have been?,"What was the hacker's plan in terms of liquidating the proceeds? Like how can you possibly get away with that -- couldn't an exchange like Coinbase easily map the recipient's address / key to a person? I'm a noob, just curious."
+ethereum,"Reddit Co-Founder Alexis Ohanian has unveiled that he has “a lot” of Ethereum (ETH) Meanwhile, Ohanian did not mention the exact amount of the ETH he holds. Ohanian disclosed his passion for Ethereum in an interview.",
+ethereum,Polygon 101 Guide: How To Save ETH Gas Fees in DeFi!!,
+ethereum,NFT farming comes to L2 chain,
+ethereum,Are there any Ethereum developers working on a DAO SDK?,"Not sure if there is a better term for this, but any kind of DAO development toolbox with some degree of custom governance parameterization. Maybe analogous to what Squarespace, etc, is for websites.
+
+If there isn't such a platform, how straightforward is it to create a DAO manually? Does it just consist of minting some number of governance tokens and then building smart contracts?"
+ethereum,Ethereum will be obsolete,"Imagine a world where Ethereum didn't have first mover advantage. Imagine a world where projects like Algorand or Cardano did. Now ask yourself, if Ethereum followed Algorand or Cardano would it even stand a chance of adoption; the high fees, the tedious convoluted third party scaling solutions, etc. The answer is no. No one would even be talking about Ethereum because the tech is terrible. It's outdated. The only reason people are still talking about ETH is because of financial intuitions who have more money than sense backing Ethereum's dated technology.
+
+Stop clinging to projects that you know are a convoluted mess of third party solutions used to prop up outdated technology. Yes, I know that you have a lot of money invested in ETH, yes, I know that you mine ETH and it pays the bills, good for you but don't pretend like Ethereum is the best blockchain tech on the market because you favor it like it's your child."
+ethereum,Beginner question about a token in my wallet and how it got there,"Hello,
+
+A few years ago I bought some ethereum and I just went to check in on it and it shows I now own a little more than 2 ""Livepeer"" tokens. I looked Livepeer up and it appears to be some video streaming platform thing that I am completely unfamiliar with. I have never transacted in Ethereum other than buying it and transferring it to my hardware wallet. Dod something happen that would have caused me to acquire Livepeer? Can I swap my Livepeer tokens for straight up ethereum?"
+ethereum,Keep getting out of gas,"My transactions keep getting out of gas. I've set price as high as 65 gwei with 35k gas limit. 
+
+Etherscan gas transfer shows 30 gwei as high and I've tried going well above that. Am I doing something wrong or do I need to keep increasing?"
+ethereum,"Found an old Keystore folder.. (no, I'm not a millionaire now)",
+ethereum,Question about transaction,"Hi, sorry if this sound stupid, but I’m new into this. My scenario is the following: I sent Aave ETH to a ETH wallet that only accepted ETH, so the destination wallet doesn’t have my crypto, but the initial wallet marked the transaction as successful, does this mean that my crypto is lost? Any help is really appreciated."
+ethereum,"Taproot, competition for Ethereum?","Reading this article, maybe I'm behind the times, or says Bitcoin will have smart contract capabilities with the Taproot upgrade. Is this for real? And is it a legitimate competitor to Ethereum? https://www.cnbc.com/amp/2021/06/12/bitcoin-taproot-upgrade-what-it-means.html"
+ethereum,Reddit Co-Founder Revealed That He Loves ETH So Much,
+ethereum,How Layer 2 Is Primed To Solve Ethereum Scalability Issues,
+ethereum,Interview with Video Game Artist Genel Jumalon about NFT's,"Interview with video game artist Genel Jumalon. We discuss NFT's from the artist perspective.  
+
+[Apple](https://podcasts.apple.com/us/podcast/bonus-episode-nfts-with-video-game-artist-genel-jumalon/id1541909628?i=1000525197207)
+
+[Spotify](https://open.spotify.com/episode/46DF9e6fBtAlj0Ej0E0ws6)
+
+[Google Podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9WXzJNN1lYcw/episode/MDQ5NTQwZGItYTllOS00YTE2LWIzZDItNGU3MjY0MzNmZTZh?sa=X&amp;ved=0CAUQkfYCahcKEwj4r_iDppLxAhUAAAAAHQAAAAAQAQ)
+
+[Pandora](https://www.pandora.com/podcast/wwsd-podcast/bonus-episode-nfts-with-video-game-artist-genel-jumalon/PE:6496159)"
+ethereum,Aztec is going open source!,
+ethereum,EIL5: How Are Dapps Any More De-Centralized Than The Platforms We Currently Use?," I was browsing r/ethereum this morning, and I saw a cool post where a student in Australia was able to pull up his/her test scores on a blockchain powered by Ethereum. This is really, really cool -- I thought: “Wow! This is only the beginning for real world Ethereum use cases.” 
+
+I’m having some trouble understanding how this example concretely looks like, which is why I wanted to solicit help from this community, to hopefully understand the concept of Ethereum a little bit better :) 
+
+Forgive me if I butcher this explanation; I’m new to this whole blockchain stuff and I’m outlining this in the best way that I can best understand it:
+
+\-------------------------------------------------------------------------------------------------------------------
+
+Okay, so in the Australian test score example, I’d imagine there is some sort of decentralized application (dApp) the Australian school system (A.S.S. for short) uses to post student test scores. To keep random hackers (or trolls) from posting false test scores on this blockchain and trolling up the entire grade posting, I’d imagine the A.S.S. needs some sort of gate-keeping code to say: “only those who verifiably work in the A.S.S. can publicly post blockchains on this dApp”. This, most likely, requires some sort of login/password system; only those with A.S.S. -verified accounts can make postings/edits. 
+
+Though, this got me thinking: yes, we are keeping student grade data on a decentralized blockchain, but at the end of the day, access is still centralized under the dApp. I understand the security of keeping something on the Ethereum Blockchain itself, but couldn’t a hacker instead steal the A.S.S. login credentials on the dApp, and make all sorts of fake grade postings? 
+
+I understand that it is more secure to keep (student) data on a blockchain, because once posted on the blockchain, it can never get erased/wiped off the blockchain. However, when it comes to security of “Who is making new posts on the blockchain”, I’m having trouble understanding how centralizing access on a dApp is any more secure than centralizing (student) data across a school-shared (Microsoft?) drive. 
+
+\----------------------------------------------------------------------------------------------------------------------
+
+Thanks in advance for reading this post! I want to believe in the long-term adoption of Ethereum, but I’m having trouble getting comfortable around this idea of keeping access/login keys on centralized platforms. Any and all help, feedback on this concern is appreciated, fellow Redditors!"
+ethereum,Tikkun Olam dApp - Beta (usable) Release v1 - the first step to rectifying the world is knowing what needs to be rectified.,
+ethereum,"When the value of ETH crashes, will stablecoins like DAI or USDC be affected ?","I'm not sure how old the reputable stablecoins are, but I've been wondering if a bear market had a chance to impact the value of stablecoins to a point where those are no longer a safe asset to hold ?
+
+Asking that because I've been mining ETH for awhile now and thinking of securing those gains &lt;without&gt; triggering a taxable event (which is basically Crypto -&gt; Fiat in my country)
+
+Thanks for your insights !"
+ethereum,"Now might be a good time to acquire some gas tokens, lowest gas in a long time",
+ethereum,"There has been a lot of talk around Ethereum going deflationary with the introduction of EIP 1559. Is that really the case? This article takes a closer look at the prospects of EIP 1559 proposal and how it intends to change the existing gas fee mechanism. Also, why some Ethereum miners are opposing.",
+ethereum,⟠ Latest Week in Ethereum News!,
+ethereum,Reddit Co-Founder Says 'A Lot' of His Holdings Are in Ethereum,
+ethereum,Is It Safe to Share a Public Address?,
+ethereum,"Firefox, DeFi, Dapps, and a hot hanging laptop.","Browser: Firefox 89.0
+
+Injector: Metamask 9.5.9
+
+Laptop: Asus G14 Ryzen 9 4900HS w/ 16GB RAM
+
+OS: Windows 10 64-Bit
+
+Hey folks.  I can not seem to find any information on this issue for the life of me.  I run a lot of open tabs with a myriad of DeFi dapps across multiple blockchains.  I'm using Metamask as the web3 injector and everything seems to run swimmingly at first, but the longer I get into sessions, the more I notice my laptop getting warm to hot.  Task manager occasionally shows Firefox child processors maxing out single-cores, and force quitting those will crash the respective tab(s), cool down the laptop, and restore performance, but it won't often be long before I notice that I'm back to having hot thighs.
+
+I've added Auto Tab Discard to try and unload tabs I'm not using, but it seems that if I'm working in any dapps, even if the others are discarded/asleep, it'll start warming up again.  I can't find out if its Firefox, Metamask, or some other issue, let alone how to resolve it.  I was thinking of trying Brave browser, but I wanted to see if this was a familiar issue to anyone before migrating everything over to a new browser where the same issues might exist.
+
+Thank you for any information anyone may have."
+ethereum,'Doge' Meme NFT Sells for Millions,
+ethereum,Web3.py and smart contract on ETH,"I'm basically traying to understand how the ethereum blockchain works and how to send tx using python coding. But still there are many peaces that I can't understand. 
+
+Can I send transactions using just [web3.py](https://web3.py) library or it is necessary to create an smart contract with solidity to send the tx?
+
+Does [web3.py](https://web3.py) library create an underlying smart contract when you seend the tx?
+
+Which instructions do I need to send a swap to a LP?
+
+If anyone have appropiate answers for this questions, I would appreciate.
+
+&amp;#x200B;
+
+Thaks in advance!!"
+ethereum,Ethereum Core Devs Meeting #115 [2021-06-11],
+ethereum,Mined Ether to ETC ledger hardware wallet address,"Hi guys,  
+
+
+I Mined Ether to ETC ledger hardware wallet address. Will my ledger be able to access the same address on the Ethereum blockchain?  
+
+
+If there is, how do I do it? thanks!"
+ethereum,Bitcoin is De-dollarization. Ethereum is DeFi-nancialization.,
+ethereum,A Practical Introduction to Wildland,
+ethereum,Understanding the risk of staking. Looking for clarification.,"I’m considering staking my eth, but I was wondering about the risk. If I staked 1 eth and it had a failed verification and lost money, you don’t lose all of the eth, correct? 
+
+Specifically, I’m wondering if when you lose out on staking if it means you lose all of the staked amount or just a portion. 
+
+The way I understand is that you risk your own stake in the coin to validate the network, so if a faulty transaction occurs then you are the one who is penalized, correct? Just wanting to understand the extent of that loss."
+ethereum,Why doesnt the ethereum team create an L2 solution?,"by outsourcing it to other companies, wont there be just a fragmentation?
+
+if everyone is on different l2 solutions, there wont be a unified experience.  right now, you can use uniswap and aave as an example together. but if uniswap is on arbitrum and aave is on optimism,  this wont be possible   right?"
+ethereum,What are the best (and safest) ways to earn passive income with Ether?,
+ethereum,Smart contracts and Eth 2.0,"Saw the Lex interview with Vitalik, and something puzzles me. Currently, as I understand it, smart contracts and dapps run on chain in a distributed fashion. In the interview Vitalik said that with the upgrade to Eth 2.0 smart contracts will be run off chain, doesn’t this defeat the purpose decentralized processing? Can some ELI5, I’m kinda new to all this and thinking about staking and running a validator."
+ethereum,Temporary Value Locked - The Daily Gwei #267,
+ethereum,Yesterday I received my very first payment for a haircut in Ethereum!,
+ethereum,ZK-Rollups: how the layer 2 solution works,
+ethereum,"Bitcoin Twitter integration soon, says CEO Jack Dorsey - Crypto DeFinance",
+ethereum,Staking ethereum,"Hi, I'm currently staking my ethereum on binance. Is there a better option or is binance a decent choice?"
+ethereum,"Comparison of commissions and times per transaction: Bitcoin, Ethereum, Litecoin, Dogecoin, Nano",
+ethereum,"Ethereum Minecraft NFT for web3 esports! This is sick , love it!!!",
+ethereum,Differences Between Ethereum Wallet Types,
+ethereum,News updates for the top DeFi protocols,
+ethereum,"Still no update from Rocket Pool, despite severe launch delays",
+ethereum,"I was mining ETH back in 2017, I just found my public key and password but that's all I have. Is it possible to get my ETH or am I SOL?","Sorry for the stupid question, to elaborate, I had the private key on my desktop in a folder buuuuuut I lost it when my PC shit itself. I know, I was a moron."
+ethereum,"Solidity v0.8.5 has just been released. For new features, check the release announcement!",
+ethereum,What's your 5 favorite things about Ethereum and why?,What's your 5 favorite things about Ethereum and why?
+ethereum,"Raiden Network, an Ethereum scaling project, is preparing to launch Bespin Mainnet.",
+ethereum,"Polygon, 0x Spend $10.5 Million in Ethereum DeFi Developer Push",
+ethereum,The Future of Finance: How a decentralized credit network can compete and benefit everyone (except…,
+ethereum,On Ethereum and Flippenings,"hi everyone - i wrote a post about ethereum and its potential to disrupt the tradfi ecosystem. check it out and lmk if you have any thoughts!
+
+[https://wilybobolink.substack.com/p/on-ethereum-and-flippenings](https://wilybobolink.substack.com/p/on-ethereum-and-flippenings)"
+ethereum,Where does Vitalik buy his ether?,
+ethereum,The biggest hindrance to making crypto mainstream (My opinion obviously),"Hey all,
+
+&amp;#x200B;
+
+I am just putting this on this forum to get some response from you all and see if my opinion is shared or if I am just an idiot. Also, it makes me think of a potential business idea so I wanted to see what you all thought.
+
+&amp;#x200B;
+
+The problem with crypto right now and making it normalized is that it is complex.  Yes, I understand that it is a total different system than what we currently run on, so you are going to need to learn it to be able to use it.  I get that, but the issue is that a lot of people do not want to spend the time to learn a new system, but may want to be able to use it.
+
+""Well don't be lazy and learn how it works, how to use a wallet, how to fund the wallet etc"". This is true, but people are fucking lazy, that's why people don't switch between different banks, simply because they are too lazy to do so even if they are unhappy with their current bank (this is coming from someone who worked for Wells Fargo for 3 years - shitty bank, but people stay because they just don't want to spend the time to help themselves).
+
+&amp;#x200B;
+
+this made me think ""how can you get someone to get into Crypto without having the learning curve issues with it?"" I don't think I have the perfect answer, but I think that a company that actually does the setup for the customer and also keeps their codes/seed phrases secure would help a lot more people come on board.
+
+&amp;#x200B;
+
+Now I know that this somewhat flies in the face of what many would say is the point of crypto currency ""not your key, not your wallet"" I think is the term people use, but think about trying to get your mom or dad into this (assuming we are mostly millennials/Gen z's) - first you need to walk them through what wallet they should get and honestly even as a millennial the amount of wallets and trying to figure out which one is right for you can be a little exhausting, with how new the tech is, it is sometimes hard to figure out which wallets are legit, not to mention which ones are the best.
+
+&amp;#x200B;
+
+Once you have the wallet issue figured out, you need to figure out how to work DeFi/whatever Dapps you are using - while this might be simple for most people here, funding your wallet and then staking/using defi can be confusing for many, also remember that most board members of companies are going to be older than most of us here, so trying to get companies to use DeFi would take convincing of management at companies that it is safe, and people usually don't think something is safe if they cannot use it.
+
+&amp;#x200B;
+
+I'm somewhat rambling now, but I think a company that could help with this for institutions/individuals would actually help crypto out a lot as I think this is a major issue of crypto, but I wanted to see if you all thought that this is incorrect or if I'm missing anything.
+
+&amp;#x200B;
+
+Edit: Forgot to add business idea in the title, sorry"
+ethereum,This sub has just crossed the 1 million builders mark! 🥳,
+ethereum,Payroll built on ETH?,"I had a weird idea last night but I was wondering if it exists or if it hasn't been built yet...
+
+Like I said a payroll platform built on ETH. I am by no means a dev or anything but I thought it would be a cool idea to pay workers in crypto. 
+
+I was thinking instead of paying people bi weekly or even weekly you could pay them by the day. You could give employees tokens for sick days, vacation days, and bonuses. You could even pay people daily bonuses for extra hard work completed. The employee could even swap bonuses for days off or trade days off for other coins.
+
+Just an idea I had, it probably would never work but it would be cool to be in charge of how you spend your time."
+ethereum,"Vitalik Buterin calls Craig Wright a scammer, dares self-proclaimed Nakamoto to sue him - WHAT!? Vitalik is a G. 💯",
+ethereum,"Episode 11 - ""Save Dat Money"": Shoutout to our daily and weekly winners, Elon market manipulation, ETH/Doge, &amp; Lil Dickey enters the NFT marketplace. See comment section for the link to the Apple podcast.",
+ethereum,"USDT vs USDC: Which is better, trustworthy and more secure to have?","Hey there fellow ethereans, 
+
+I have been hearing that Tether has regulatory issues quite often and is not secure. So, is USDC an alternative better choice? If not, which would be the best and most promising stablecoin? Please help. I'm looking for one which is on a scaled blockchain like Solana, etc. to reduce the transfer fees. 
+
+Thanks in advance!"
+ethereum,Stablecoin Infographic by ChangeHero,
+ethereum,Nanopool downfor anyone else?,"
+
+[View Poll](https://www.reddit.com/poll/nxb3xk)"
+ethereum,Running an ETH node.,"I'm trying to set up my own ETH node and want to use it for checking transactions on chain. For what i'm looking to do, I need to have the fastest sync times possible.
+
+What i'm have trouble finding are these points:
+
+Which client syncs fastest?
+
+Do you need a full node verify trading transactions or is a light node fine?
+
+thanks in advance!"
+ethereum,New website for Fe (EVM language),
+ethereum,Own a Piece of Ethereum History -- Announcing the Beacon Book Community Giveaways,
+ethereum,How to grow decentralized communities - Community building for token networks -- pet3rpan,
+ethereum,CryptoPunk NFT Sold for $12 Million Worth of Ether at Sotheby’s,
+ethereum,Support from MATIC,"Polygon, 0x Spend $10.5 Million in Ethereum DeFi Developer Push https://decrypt.co/73250/polygon-10-million-ethereum-defi-developer-push"
+ethereum,Is the ETH network currently clogged or is it just me?,I’m trying to process some transfers on the ETH network and nothing is going through. But when I look online to see if others are having issues and can’t find anything. What is going on? None of my swaps or transfers will go through and even Coinbase has a comment about how they are having trouble with ETH transfers.
+ethereum,UC Berkeley students form DAO and hold NFT auctions for Nobel-Prize-winning data for cancer treatments,
+ethereum,Recover Nano S to another wallet?,"Is it possible to recover a Nano S wallet (with the use of the passphrase) to another wallet that is not a Nano S? I have a several years old passphrase from an empty wallet, and I want to check if there are some airdrops I missed, but I don't want to buy one more Nano S."
+ethereum,Why do some projects like to have their liquidity staked?,"Help me understand this.
+
+I provide liquidity for project X with an ETH pairing at 50:50 X/ETH on Uniswap. In return I receive LP-Tokens for 50:50 X/ETH that represent the value of my liquidity + fees earned. I will need these LP-Tokens to pull out my liquidity + fees earned at any given time and move on.
+
+Now, project X has a partner program called project XY ( they work together within the same ecosystem). Project XY offers me to earn XY Tokens if I were to ""stake"" my LP-Tokens from project X with them.
+
+***Here are my questions:***
+
+How and Why does Staking work with LP-Tokens? ( in nuanced detail would be great )
+
+Why would Project XY like to have Project X's LP-Tokens staked with them? ( other than obvious things such as stability of liquidity, please mention every detail if you know the answer to this )
+
+Are there different kinds of Staking in regard to ERC20 tokens and if so, how does one research relevant differences and what are they?
+
+As I'm still learning, I might not be able to ask all the important questions in this regard., so if I have left an obvious relevant question to this topic out, feel free to put it in the room and answer it too if you know how.
+
+Thanks in advance for anyone sharing his knowledge on this."
+ethereum,FundOSS (Gitcoin Grants for Web2 Open Source) is Live! A Crypto Primitive going mainstream :),
+ethereum,Beautiful Ugliness - The Daily Gwei #266,
+ethereum,"Things like Ethereum are possible thanks to open source developers that work nights and weekends to create them. Gitcoin is the largest organization funding this kind of public goods, matching donations with a pool. To spread the word, I interviewed founder Kevin Owocki, an extremely cool dude!",
+ethereum,Amazon Job Opening for Head of Products on Blockchain - Crypto DeFinance,
+ethereum,"Marks Factory 🏭 IDEs - dApp Build and Deploy for Ethereum, ready for editing in Markdown",
+ethereum,Is that normal?,"Someone sent me ethereum around 12 hours ago from  binance to my wallet in blockchain and i didn't receive it it saying completed transaction from his side
+And i checked using a few 3rd party websites my wallet didn't have any transactions recently
+
+
+Ps. Sorry if im breaking any rules didn't see anything against this in the rules but i feel like it is"
+ethereum,We have seen a developing maturity in the cryptocurrency ecosystem. Our work with industry partners such as Victory Capital and Hashdex furthers the innovation in the digital asset space,
+ethereum,"MEV: The Ultimate Financial Battleground, Where Adversaries Come to Play",
+ethereum,Future-proof shard and history access precompiles,
+ethereum,Ethereum scaling solution Raiden rolls out 'Bespin' mainnet release,
+ethereum,Can you write smart contract to send other cryptos to specific wallet when requested?,"Hey guys, I know that we can use smart contracts to transfer eth based tokens, is it possible to do same with eth smart contract to send btc or cardano to specific wallet?"
+ethereum,Tokenizing livestock -- Nebraska ranch first to use new cattle supply chain tracking technology using Ethereum,
+ethereum,"Online Pseudonym Parties fully implemented half a year ago, and game theory around ""proof-of-unique-human""","In my own opinion, Ethereum project collapsed a bit when the majority of the validators chose to break the hash chain continuity in 2016, and chose to create something like a (very complicated) second genesis block on block number 1920000. And that since then, it's been whoever shouts the loudest that gets attention. This is fine, I chose to prioritize other things instead.
+
+I finished my proof-of-unique-human system half a year ago, full implementation: [https://snippet.host/tqcr](https://snippet.host/tqcr). For anyone interested in working on that, there you have the source code.
+
+A lot of people seem to believe a web-of-trust is a good basis for majority vote-type systems. It really isn't. Webs-of-trust are great for other things, but, for ""centralized"" proof-of-unique-human"" it is probably dead in the water. See ""[proofofhumanity.id](https://proofofhumanity.id)"" or ""BrightID"", and probably a few others. I chose the opposite approach, basically to start from the *exact opposite* of a web-of-trust.
+
+On that last note, what Satoshi (Craig Wright) has said over and over, is that so many people \*wanted\* his invention to be a ""web of trust"". Because people *like* webs-of-trust, you are in control in those. But you can't use them for everything. And you cannot use them for majority vote, was my conclusion.
+
+Just a heads up, if anyone is interested in the proof-of-unique-human problem, game theoretically."
+ethereum,"Is native scalibility ever going to be possible with ethereum without sacrificing decentralization, speed, security, or composability?","I have a significant amount invested in eth, and I think Vitalik and team are geniuses, but I keep hearing that one leg of the trilemma always needs to be sacrificed and that you can't have all 3. Meanwhile I've since stumbled upon projects like Radix which is a DLT claiming they've ""solved"" the trilemma at scale. Fully sharded L1 protocol would mean composability at scale, which I think is ethereum's biggest weakness.
+
+There is unbelievably strong network effects on ethereum, but if people keep using sidechains, rollups, etc then it becomes less about eth and more about the individual apps and what they can accomplish with these other techs (as a result: bearish for eth).
+
+Is it possible for eth to eventually fork to a full L1 sharded protocol that can be scaled well?"
+ethereum,Staking and Taxes,"Currently the IRS treats staking rewards as capital gains every time you receive them. This means for every time you get a staking reward (Coinbase does daily for ALGO) then you get taxed for that reward. 
+
+This seems ridiculous since when you sell corn you get taxed after you sell it, not when you’re growing it and harvesting it. Isn’t it suppose to be treated relatively similar by the tax standards? 
+
+I may be completely confused about this issue, but when Ethereum becomes PoS I believe a lot of litigation will need to happen for crypto and taxes."
+ethereum,Staking in the UK,"Apologies if this is the wrong sub, but I was interested in the options for staking eth in the UK. As far as I can tell, coinbase uk doesn't offer it yet. 
+
+Cheers in advance!"
+ethereum,If a Layer 2 stops existing what happens to my assets?,"If a Layer 2 stops existing what happens to my assets?
+
+Am I still able to withdraw them?
+
+How does this compare to a sidechain?  
+
+
+Trying to figure out what scaling solution I should be playing with. 
+
+Thanks, we're all learning together! What a community we have here."
+ethereum,Ethereum had accidentally solved a major problem of the Internet: true Single Sign-On,
+ethereum,Confession : Vitaliks some lad,"I listened to theLex Friedman podcast today and it was the first time Ive actually bothered to listen to the bold Vitalki Buterin speak ( I first dabbled/invested in crypto in 2017/18, fell away and came back).
+
+Ive often seen posts pumping up the odd looking chap who wears 'eccentric' tshirts and I wrongly prejudged that he was just a massive nerd, I wouldnt understand half the stuff he was talking about and would bore me to tears.
+
+I have to confess....he came across great. He was personable, informative in a non-condescending, approachable way. Also loved the way he accepted the flaws of the project and explained how certain decisions were made rather than hiding/deflecting from the truth.
+
+All in all, It made me even more interested and bullish for Ethereum's future knowing theres an absolute crypto shagger at the helm. I apologise and revoke my judgement. Shame on me for not listening to the man sooner."
+ethereum,"Ep 10: ""Eth Cat Herders Ft. Pooja Ranjan"" - Herder in Chief Pooja Ranjan joins us on the pod to discuss ETH Cat Herders, the EIP process, fellowship of Ethereum magicians, peep and EIP video series, the beacon chain upgrade ""Altair"", the main net layer upgrade ""London"" and its impact on miners.",
+ethereum,Best Vitalik interview for my family?,"I am visiting my extended family and got to choose what we watch on the tonight. I’m choosing a Vitalik Buterin video. They know next to nothing about him or even crypto, other than Bitcoin. What interview should I choose that will impress the hell out of them and impress upon them the magnitude of what’s happening with Ethereum."
+ethereum,ChainSafe's Eth2 Typescript implementation Lodestar: v0.24.0 has just been released!,"Hi all! 
+
+[Tim](https://twitter.com/haochizzle) from [ChainSafe](https://chainsafe.io) here! :D 
+
+I posted here last with a [small progress update](https://www.reddit.com/r/ethdev/comments/nkwl9f/an_update_on_lodestar_our_typescript/) from our Lodestar team. Our light client progress update article is still coming up (hopefully in the next week or two), but the dev team wants to hook a real node into the light client prototype to generate real proofs for any demo's! Stay tuned!!! 
+
+In the meantime...
+
+ChainSafe's Eth2 Typescript implementation [\#Lodestar](https://twitter.com/hashtag/Lodestar?src=hashtag_click) v0.24.0 has just been released! 
+
+* Support for Altair spec version alpha.5 
+* Support new spec preset / config partition 
+* Beacon node able to produce light client updates 
+
+Check out our [Github](https://github.com/ChainSafe/lodestar/releases/tag/v0.24.0) to see the release notes.
+
+Peace and love, &lt;3
+
+[Tim](https://twitter.com/haochizzle)
+
+If you're curious about any of our other work, we would **love** to hear from the community. If you'd like, drop us a message here, on [Twitter](https://twitter.com/chainsafeth), or on our [Discord](https://discord.gg/CprJHjrWG6) \#Lodestar channel."
+ethereum,London Upgrade Overview 🇬🇧,
+ethereum,How bad exactly is this tether situation?,If USDT is not really backed by dollars what could happen to the Ethereum and defi ecosystem? Is this a serious weakness?
+ethereum,Ethereum as a official currency of some country,"Now, that bitcoin is an official currency of a country, can the ethereum community convince some country to adopt it as a currency?"
+ethereum,What are the possible implications of Ethereum being classified as a Commodity or Security vs an Asset?,"Ethereum is fundamentally different to bitcoin and while bitcoin does have the spot light currently I'd imagine that will change at some point in the future. 
+
+Any opinions on a change of classification being positive or negative and what changes that may incur?"
+ethereum,MEV in Eth2 - An Early Exploration,
+ethereum,Off coinbase ETH2.0 waitlist…,I got off the waitlist for staking eth for the 2.0 upgrades and I know I won’t be able to pull my eth out until after 2.0 is fully available and then some…should I stake for 6%? Is there anywhere else that is better?
+ethereum,Stablecoin Concept [x-post from r/ethdev],"Quick preface: first-time poster here, please let me know if there’s anything I should change.
+
+One of the biggest factors preventing crypto from widespread adaptation is volatility. Plenty of stablecoins have tried to solve this, but they’ve all had some sort of issue. They’re either centralized, can’t hold a peg, insanely vulnerable to external financial shock, or some combination. I have what I think is a new idea for a stablecoin, and I’d like some feedback.
+
+The basic concept of relatively simple: instead of using oracles or collateral to maintain a peg, we fix the cost of creating a new coin to $1.
+
+The coin would be mineable. According to Moore’s law, computing power increases at a relatively stable rate, so the mining difficulty could be adjusted daily by a contract to ensure that the price of mining a new coin is always $1.
+
+I’m not entirely sure if this makes sense, and it’s definitely a very early idea that certainly has numerous issues. I’d appreciate any feedback I can get."
+ethereum,To node or not to node,"So, I wont get into any specifics but will say I'm close to the required amount to run a node. As you can tell, I'm very inexperienced in hosting a node but I've invested a long time in crypto without much direction. More so of a, ""this shit gonna get lit one day"", type of mentally where I throw 10% every month of all gross earnings between me and the spouse. Never missed a beat. So totally, we have $120k+ invested in crypto over the years. Real question is, what do I do with the ethereum? I could stake? I could host? Just not sure on what to do to maximize security and profitability. I'm not that advanced so sorry if this is a dumb ass post."
+ethereum,Geth: snap sync vs fast sync?,Can anyone tell me the advantages and disadvantages of snap sync compared to fast sync?
+ethereum,The first Real Estate NFT was just sold on the Ethereum blockchain,
+ethereum,"CHECK for newun variable in the contract code before you buy a token.If you found it,don't buy it.It is a scam token that will not let you sell.",
+ethereum,"Status v1.14 is live – Seamless Keycard onboarding, chat improvements, &amp; more",
+ethereum,London Upgrade Overview: A description of the EIPs included in London.,"Follow the latest blog [London Upgrade Overview](https://medium.com/ethereum-cat-herders/london-upgrade-overview-8eccb0041b41) by the Ethereum Cat herders for a description of the EIPs included in London.
+
+EIPs included 
+
+* [EIP-1559: Fee market change for ETH 1.0 chain](https://eips.ethereum.org/EIPS/eip-1559)
+* [EIP-3198: BASEFEE opcode](https://eips.ethereum.org/EIPS/eip-3198)
+* [EIP-3529: Reduction in refunds](https://eips.ethereum.org/EIPS/eip-3529)
+* [EIP-3541: Reject new contracts starting with the 0xEF byte](https://eips.ethereum.org/EIPS/eip-3541)
+* [EIP-3554: Difficulty Bomb Delay to December 1st 2021](https://eips.ethereum.org/EIPS/eip-3554)
+
+## [London Network Upgrade Specification](https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)"
+ethereum,Amazon Looks to Hire Blockchain Staffers With Experience of DeFi,
+ethereum,Just an honest question,Why is Solana called the ethereum killer and is there any validity to it?
+ethereum,Where can I find the part of the ethereum code with the consensus protocol?,"I want to play around with different consensus mechanisms in an ETH clone, but I dont actually have a proper overview of what does what since Im not that great in some of the languages. So yeah. Appreciate any help. Also, do I have to alter other parts too for changing the consensus mechanism?"
+ethereum,"San Jose Sharks Becomes First NHL Team To Accept Bitcoin, Ethereum, Dogecoin"," San Jose Sharks has become the first NHL team to accept cryptocurrencies such as Bitcoin (BTC), Ethereum (ETH) and Dogecoin (DOGE) for large payments.
+
+The Sharks will partner with Atlanta-based payment processor BitPay and also accept payments in other cryptocurrencies such as Bitcoin cash (BCH), Wrapped Bitcoin (WBTC), and five U.S. dollar-pegged stablecoins.
+
+Jonathan Becher, the president of San Jose Sharks, said on Twitter that his team will initially accept cryptocurrency for season ticket purchases, suite leases and sponsorship deals. Becher added that using cryptocurrency for smaller purchases such as single-game tickets, food and beverage, and merchandise will be reviewed in the future.
+
+https://www.benzinga.com/markets/cryptocurrency/21/06/21464944/san-jose-sharks-becomes-first-nhl-team-to-accept-bitcoin-ethereum-dogecoin"
+ethereum,How to solve this? I sent my eth to eth bep20 from binance to trust wallet. Pls help,
+ethereum,[EthMag] Proposed scheme for encoding Ethereum state into a Verkle tree,"Link: [https://ethereum-magicians.org/t/proposed-verkle-tree-scheme-for-ethereum-state/5805](https://ethereum-magicians.org/t/proposed-verkle-tree-scheme-for-ethereum-state/5805)
+
+One of the things that I want to do at the same time as moving the current Ethereum state to a [Verkle tree](https://notes.ethereum.org/_N1mutVERDKtqGIEYc-Flw) to cut witness sizes is to move it from the current 2-layer ""trie inside a trie"" structure to a single-layer structure.
+
+You may have seen diagrams of the Ethereum state like this before:
+
+&amp;#x200B;
+
+https://preview.redd.it/paa4fwmlk3471.png?width=1488&amp;format=png&amp;auto=webp&amp;s=c2bd8d1c96c15f24bfca6fbef65ab11b4134f469
+
+The state consists of a set of accounts, where each account contains a header. Each header in turn contains a pointer to a piece of code, and a root of another whole *account-specific* tree. This structure has a few really annoying problems:
+
+1. It's complicated. There's a lot of extra code that needs to be written to handle the tree-inside-a-tree mechanism, as well as the special cases for accessing things in the account header that are not storage (ie. nonce/balance/code). This complexity appears in many places: database reads/writes, Merkle proof construction, Merkle proof verification, syncing, caching...
+2. It's unbalanced: there are individual subtrees that have a huge amount of data in them. This is annoying for state sync protocols, because you can't make any assumption that what looks like a ""small portion"" of the state (eg. all objects starting with 0x7A5) will actually be small
+3. It doubles worst-case tree attack lengths
+4. It becomes even more complicated to figure out the interplay between state and mechanisms such as [state expiry](https://hackmd.io/@vbuterin/state_expiry_paths). Anything that manipulates the state piece-by-piece would need separate logic for account-level and storage-slot-level manipulations
+
+I propose an alternative, which fits the entire Ethereum state into a single key:value trie. That is, every position in the state (eg. `(address, storage_slot)`, `(address, NONCE)`, `(address, code_chunk_index)`) gets mapped to a single 32-byte `key`, which is where it is stored in the trie. As a witness-size-optimization feature, the trie is designed in such a way that the last byte of the key is always a separate commitment (Verkle trees are made up of commitments, where each commitment can have many children, in our case up to 256). Here's an example of how this might look:
+
+&amp;#x200B;
+
+https://preview.redd.it/0uqek39cp3471.png?width=700&amp;format=png&amp;auto=webp&amp;s=5978af80832b143d0d5caf7085a92c37612a645c
+
+There is no ""trie of tries"" design, and there is also no special serialization for a header; instead, header and code are both mapped to keys, just like storage. Values which share the first 31 bytes of their key are put into the same bottom-layer commitment; this saves witness space for common use cases (verifying many header fields or code chunks or adjacent storage slots). Note that accounts will no longer be ""under one subtree"" the way they are today; different parts of the storage of an account will be in different locations in the state trie.
+
+For the sake of illustration, here's part of the code in my proposal, which shows how values inside addresses will get mapped to trie keys:
+
+    def get_tree_key(address: Address, tree_index: int, sub_index: int):
+        return (
+            hash(address + tree_index.to_bytes(32, 'big'))[:31] +
+            bytes([sub_index])
+        )
+    
+    def get_tree_key_for_balance(address: Address):
+        return get_tree_key(address, 0, 1)
+    
+    def get_tree_key_for_nonce(address: Address):
+        return get_tree_key(address, 0, 2)
+    
+    def get_storage_slot_tree_key(address: Address, storage_key: int):
+        if storage_key &lt; 64:
+            return get_tree_key(address, 0, 64 + storage_key)
+        else:
+            return get_tree_key(address, 2**248 + storage_key // 256, storage_key % 256)
+
+Notice in particular how values in the header get mapped to trie keys that share the first 31 bytes, so they are part of the same bottom-level commitment, and adjacent storage slots (and code too) benefit from the same treatment.
+
+Additionally, storage slots 0...63 have the privilege of being part of the same bottom-level commitment as the header, so witness size for accessing these frequently used slots is *really* low. Gas costs (see next section) will be adjusted to take advantage of this; the current proposal charges a flat 200 gas per slot for these first 64 slots.
+
+# Witness gas cost reform
+
+An important reform that needs to happen alongside this is gas cost reform, finishing the work that was started in EIP 2929 by making gas costs closely map to witness data usage in all cases. This allows us to ensure tight witness size bounds for Ethereum blocks (even including worst-case attacks on the trie that require 2\*\*80 computing power, we're looking at \~6 MB witnesses; under more ""normal"" circumstances witness size will be &lt;2 MB).
+
+A necessary part of this is introducing gas costs for accessing code chunks (see [this proto-EIP](https://notes.ethereum.org/@vbuterin/witness_gas_cost_2); the current plan is \~200 gas per 31-byte chunk). That proto-EIP goes further, however, and harmonizes gas costs more generally so that they align with this trie structure: 1900 gas for a new branch proof, and 200 gas for a new value in the same bottom-level commitment.
+
+Some preliminary analysis of code chunk gas costs have shown that this may increase contract calling cost by \~10%. However, this new gas scheme will also introduce some important benefits for developers. A notable benefit is that gas costs for accessing many adjacent storage slots (eg. single persistent variables in Solidity are typically mapped to storage slots 0, 1, 2....n) will drop from \~2100 per storage slot to \~200 per storage slot after the first. Hence, well-designed contracts could easily get savings that make up for the increased cost of code access. Additionally, the per-chunk and per-subtree costs mean that contracts that call to libraries will no longer be much less efficient than large contracts that keep all their code together in one piece."
+ethereum,"El Salvador - treatment of WBTC, Layer 2 transactions",
+ethereum,Layer 2 Solutions Stand To Transform The Crypto World,
+ethereum,Beyond Speculation - The Daily Gwei #265,
+ethereum,"Crypto Q&amp;A: Ethereum as ‘gas’ for the digital economy, decentralization’s high costs and hurdles to mass adoption",
+ethereum,Imagine TikTok but better. A social media app where every post of yours could be sold to the highest bidder as an NFT. A new revenue stream from your already burgeoning follower base and well-liked contents.,
+ethereum,"Warning to the users of ""gasnow""",
+ethereum,DeFi Derivatives May Be Illegal: CFTC Commissioner,
+ethereum,"How to Redesign Ethereum website, complete UI/UX guide",
+ethereum,Won't PoS bring down the regulatory hammer?,If you're taking deposits and paying interest/dividends it seems like a whole new regulatory world. How much traffic will a node validater need if he's regulated like a bank? You have to insure the deposits.
+ethereum,"To regulate DeFi platforms, World Economic Forum publishes a guide for governments - Crypto DeFinance",
+ethereum,How to Set Up an ETH 2.0 Validator (on Goerli Testnet),
+ethereum,Newsweek: Don't Dismiss Digital Art | Max Raskin,
+ethereum,Ethereum Developer Bundle kit (anyone tried these?),
+ethereum,Back to eth after few years. Is there any practical use or still waiting?,"Now I will get downvoted, however is there any practical implementation of eth already or still not? I’ve away for few years from crypto world so I am thinking maybe something changed since then ? What should I read or watch to catch up?"
+ethereum,Building a DEX!,"Is it profitable to build a decentralised exchange using a aggregator using 1inch or 0x?
+What are your thoughts on building another DEX (order book based not AMM) using liquidity from other pools/AMMs etc?"
+ethereum,Wouldn’t it increase security significantly to tie private keys to public keys in recovery scenarios…? let me explain…,"Apologies in advance for my poor command of Ethereum terminology.
+
+My understanding is that right now, anyone can randomly enter a bunch of the the 24 word recovery phrase combinations to try and hack into an ETH wallet (and yes, I understand how unlikely it is you will hit one but thats not my point).
+
+Wouldn’t it be much more secure to require the public key first, and then enter the private key/24 word phrase to unlock it? That would be exponentially harder, no?
+
+This is what I’ve never understood about ETH keys. I get that its essentially impossible to guess a private key.. but why not take it a step further by requiring the equivalent of a specific username first (in the ETH use case this would be the public key) and then the password/recovery code (the private key in the ETH use case)?
+
+Does this make sense? Maybe theres something I’m not understanding about Ethereum’s infrastructure that makes this impossible. I’d love an explanation if one of you smarty-pants’ has one."
+ethereum,The future of finance-how crypto can unlock immense opportunity in real estate,
+ethereum,What is best way to pick up developing Dapps on ethereum blockchain? Just read the docs?,
+ethereum,"Mama Yellen, fiat paid in cash would have been a nightmare to recover. Just FYI!",
+ethereum,"DeFi in Ether: Aave reaches #1 spot in TVL, Arbitrum One mainnet beta live, Matcha 2 is here, One Year of RenVM, Yearn Finance + Chainlink, Okcoin integrates Polygon, Gnosis client dev team joins Erigon (formerly Turbo-Geth), Balancer raises $24M, Introduction to the INDEX Token, and more!",
+ethereum,Idea for cryptocurrency,"Eg:  there is this small religion or say ardent followers of a ""literally living person (now dead)"" person. It has more than 1000s of crores plunging in through donations that goes towards temples, infra and causes. Suppose if I have this ""RELegion"" coin and people just buy those coins and donate whichever project of that ""Institution"" they want..
+But... what increases the coin value in this case?"
+ethereum,"How the discovery of a critical vulnerability in ArmorFi’s smart contract led to the biggest bounty payout in history – $1,500,000",
+ethereum,Next generation of investors: One in four students now own crypto,
+ethereum,There is now ~$14billion (~5mil ETH) of value committed to the security of Ethereum through staking,
+ethereum,Lets Do DeFi - DeFi Guides Grandma Can Follow,
+ethereum,Which country in the 🌎 will adopt #Ethereum next as a legally recognized Store of Value and/or currency?,"Vote on what country you think will adopt the future smart chain of the world...
+
+[View Poll](https://www.reddit.com/poll/nvy0pa)"
+ethereum,Decentralized Finance: (DeFi) Policy-Maker Toolkit -- World Economic Forum,
+ethereum,UintArray with length 32,"Hi,
+
+I have an ethereum private key I'm trying to export from exodus to metamask but exodus isn't showing my assets when I'm utilizing developer mode. Isn't there anyway I can get the UintArray 32 version of my typical 0xxxxxx key using the blockchain? I'm a complete beginner to ethereum so any help would be greatly appreciated!"
+ethereum,Deploying My First Ethereum Smart Contract for Fun and Profit,
+ethereum,"district0x Dev Update - June 8th, 2021",
+ethereum,Question about ETH2.0 and DeFi apps based upon POW ETH.,"Maybe this isn’t the smartest question, but I am having some difficulty understanding what the implications to the DeFi (those operating on ETH) world will be when ETH upgrades to 2.0 (POS). Will the existing dapps port over seamlessly? Do they not port over? Or do they have to port over to the new POS chain? Can they leverage ETC, if they decide not to? Are there any technical challenges they need to worry about or is the expectation that ETH will manage most of the work required for this transition ? I’ve been doing some reading and just want general feedback on those who have thought about this. 
+
+Any guidance here would be highly appreciated."
+ethereum,I’m launching a DAO/DeFi/oracles/NFT job board today,"Hey all, I’m launching a job board called [Web3 Board](https://web3board.io) — it’s catered toward growing spaces in web3 and would really appreciate it if you [checked it out](https://www.producthunt.com/) on Product Hunt today.
+
+As everyone knows it’s hard to know where to start in the space and I hope my site makes it a little easier. Also looking for any feedback — I’ve added a lot of crypto-specific things to the job form but want to make a section specific for DAO-related info like memberships, treasuries, etc."
+ethereum,Fear and Greed - The Daily Gwei #264,
+ethereum,Gas Fee problems?,"Hello guys
+
+When will ETH launchand is that trues it's delayed to 2 years from now?
+
+How much is the Gas Fee in UniSwap?
+
+I was off of Etherum Dexes since the Gas Fee went crazy, didn't trade in UniSwap for more than 3 months now."
+ethereum,InsurAce is first to insure assets on AlphaHomoraV2 by Alpha Finance Lab,"Users on Alpha Homora v2 can now insure their liquidity pools and yield farms with InsurAce.
+
+For a low premium, investors in Alpha Homora v2 can insure their stakes via the InsurAce app ([app.insurace.io](https://app.insurace.io)) against smart contract breaches and other critical risks.
+
+Insuring stakes is becoming crucial as #DeFi continues to grow. Over $120M was hacked from DeFi protocols in 2020 alone, and just recently we’ve seen hacks on EasyFiNetwork, Pancakebunny and Burgerswap to name a few. DeFi insurance protocols like InsurAce mitigate the risks.
+
+With the coverage of Alpha Homora v2, we have covered all products from Alpha Finance Lab (v1 and v2 on Ethereum and v1 on Binance Smart Chain) 
+
+Alpha users can buy insurance as a portfolio to cover assets on all Alpha platforms in one go."
+ethereum,YOLOrekt to the Future!,
+ethereum,Solve.Care is a finalist for Healthcare company of the year!,
+ethereum,How should I go about taking my ETH off an exchange and moving to a wallet?,"I dont have a hardware wallet, and I dont really like the idea of all my ETH on a physical drive. MyEthWallet/Metamask seem nice are they viable options for the longterm? Id like the easy access, but theres just so much information to process everything and now that I am in control I dont want to mess up. Any advice appreciated!"
+ethereum,Ethereum Gas Fees,"""EtH WiLl NeVeR SoLvE GaS fEeS.""
+
+""EtH iS uSeLeSs BeCaUsE gAs FeEs""
+
+""ScAlInG sOlUtIoNs WiLl NeVeR wOrK""
+
+""EtH iS oNlY fOr ThE rIcH""
+
+&amp;#x200B;
+
+For those of you that don't speak sarcasm Ethereum gas fees are as low as they've been in over a year. On a network that does more volume per day than any other main net you can send an unlimited amount of money across the world for $0.55 USD in less than 2 minutes.
+
+https://preview.redd.it/us16qnd9by371.png?width=1440&amp;format=png&amp;auto=webp&amp;s=235a024cde5bfa5ccb260744990d54707e896cea"
+ethereum,DCA and Staking,"Hi, this may be a stupid question but if I stake X amount of Eth via Kraken for example can I add to that amount over time or is a lump sum and then closed off?
+
+I've been accumulating weekly but am keen to start staking asap and didn't necessarily want to wait until I had a larger amount before starting the process.
+
+Thanks"
+ethereum,Government Regulation of General Purpose Blockchains through Smart Contract Auditing,"Thinking about blockchains and risk of harms related to them, I wonder if for blockchain solutions to fully mature, they will have to play nice with some the same existing power structures they are supposed to supplant, to some degree.  If blockchains are suspected of facilitating terrorism, human trafficking, or other societal harms, enough momentum may gather to scare voters (and in turn governments) into limiting the technology.
+
+However, I feel that in some ways blockchains, at least general purpose ones, are well suited for regulation.  If you know the input(s) into a smart contract, you for sure know its output.  And smart contracts are open source and readable.  As such, authorities could ""limit"" (not sure how) transactions to certified or audited smart contracts.  They cannot control or prevent a transaction, nor do they even need to know the specifics of the transaction, they just need to know it happened through a smart contract that isn't contributing to illegal activity.
+
+That said I'm still pretty new to this all so I could be missing something..."
+ethereum,Scam token on uniswap that let's you buy tokens but not let you sell. (Increasing the value of token) ! newun is the contract owner.,
+ethereum,What’s the difference btw a shard and an L2?,
+ethereum,Integrate IPFS with Ethereum,
+ethereum,Crypto for the homeless - Handed out McDonalds in philly. Nothing special but a little at a time adds up,
+ethereum,EXMO co-founder: Cryptocurrency almost never is the first investment,
+ethereum,"EthHub Weekly Recap #169: ETH and BTC shifting dynamics, Google allowing crypto ads again, zkEVM from zkSync, Zapper levels up, Umbra live for privacy txs, Gnosis client team joins Erigon and Justin Drake on why ETH price is important",
+ethereum,"[HIRING] Function To Prevent Front-running Bots - Remote, One-time, Task value: $5000",
+ethereum,"How to proactively shield your DeFi protocol from getting hacked - tricks of the trade from DeFi's leading bug bounty platform Immunefi, protecting $25 billion in user funds",
+ethereum,SpaceX Dragon CRS-22 Mission Delivered The First Ethereum Crypto Node To The Space Station For SpaceChain,
+ethereum,"Moving tokens from BSC to Ethereum and Polygon (MATIC), or other chains",
+ethereum,Interacting with Wrapped ETH contract on Ropsten vs Mainnet,"Hi,
+
+I'm in the process of trying to teach myself a bit more about Smart Contracts and figured a good place to start would be learning how to manually make trades through using the ""Write Contract"" swapExactETHForTokens function, bypassing various DEX GUIs.
+
+I am playing on Ropsten (because who wants to make an expensive mistake?) and I'm currently just simulating a WETH &gt; Uni trade through the Uniswap router.
+
+I am able to get it to work using these settings:
+
+Contract: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d    (Uniswap V2 Router)  
+Path: 0xc778417e063141139fce010982780140aa0cd5ab,0x1f9840a85d5af5bf1d1762f925bdaddc4201f984
+
+What I don't understand is why it fails using 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 for Wrapped ETH, which appears to be what the transactions on the Mainnet use when I trace things through dextools. That CA appears to exist on Ropsten, but when I use it the transaction fails due to a path error, and I have to use 0xc778417e063141139fce010982780140aa0cd5ab for WETH instead.
+
+I'd rather avoid making costly gas errors when I start to try doing actual on mainnet, so I was hoping to understand this discrepancy before going any further.
+
+If anyone can educate me on what's going on here, I'd appreciate it. I was expecting everything to be a mirror between main and test, at least as far as CAs were concerned."
+ethereum,Why is there no lightning network for Etherium?,"Sorry if this is a stupid question.
+
+Do the Etherium scaling solutions as roll-ups just serve the purpose better than lightning? Or are there other reasons for not using/implementing something like lightning for Etherium?"
+ethereum,DeFi for Everyone — Polkamon Announcing Community Booster Partnership &amp; Partnership Pool with YOP,
+ethereum,Gaming retailer GameStop is building an NFT platform on Ethereum,
+ethereum,What exactly is the gas limit per Block?,"I just read about EIP 1559 and im wondering what exactly the gas limit per block means.
+
+Why do we have a limit of 12,5m per Block on the Ethereum Blockchain?
+
+Is the raise to max 25m per Block just for the equilibrium mechanics so they can adjust the base fee?
+
+Means 25m Gas, that if im willing to pay (basefee+tip=25m gwei) i get my very own block for my transaction?
+
+I think im missing something, because i dont really get what gas is and how much is used per transaction etc.
+
+If its that easy to raise gaslimit and get more tps, why dont we have 100m blocks?
+
+Why, if the max gas limit is really high it can happen you mine an empty block? what is an empty block?
+
+Any help is really appreciated!"
+ethereum,The Limits to Blockchain Scalability on vitalik.ca,"At the end of the article Vitalik writes this: 
+
+&gt; Quantifying this risk is easy. Take the blockchain's data capacity in MB/sec, and multiply by ~30 to get the amount of data stored in terabytes per year. The current sharding plan has a data capacity of ~1.3 MB/sec, so about 40 TB/year. If that is increased by 10x, this becomes 400 TB/year. If we want the data to be not just accessible, but accessible conveniently, we would also need metadata (eg. decompressing rollup transactions), so make that 4 petabytes per year, or 40 petabytes after a decade. The Internet Archive uses 50 petabytes. So that's a reasonable upper bound for how large a sharded blockchain can safely get.
+
+&gt; Hence, it looks like on both of these dimensions, the Ethereum sharding design is actually already roughly targeted fairly close to reasonable maximum safe values. The constants can be increased a little bit, but not too much.
+
+I don't really understand how this is going to work. If the blockchain gets this big then only archive.org or other providers will be able to run full nodes. I'm sure there's something I'm missing but I'm not sure what it is. Is it actually planned that in the future of Ethereum you'll need petabyte storage to run a full node?"
+ethereum,"Famous NHL Team To Start Accepting Bitcoin (BTC), Ethereum (ETH) and Dogecoin (DOGE) – AronBoss",
+ethereum,"There’s a New Vision for Crypto, and It’s Wildly Different From Bitcoin",
+ethereum,Decentralised voting apps?,"Hi guys, I have just been reading about a recent election result for the AfD in Germany. They had an unexpected result and now are claiming voter fraud, similar to Trump supporters in the US. From my perspective it is becoming common for political parties (across the spectrum) to claim voter fraud in some way. In my opinion this is a dangerous practice, and can easily precipitate civil unrest.
+
+I think an exciting application of blockchain is in decentralised voting. By this method voter fraud would become basically impossible? Every citizen would be provided with a unique voter account upon reaching legal voting age and then could submit their vote incentivised by some sort of token?
+
+Has anyone heard of anything like this being done on the ethereum blockchain?"
+ethereum,"[AMA] C4 Certified Ethereum Professional (CEP) - Committee Members - Live on Wednesday June 9th, 11am CDT","Are you wondering what the [Certified Ethereum Professional (CEP)](https://cryptoconsortium.org/certifications/cep/) exam is all about?
+
+Join C4’s CEP committee members for an AMA about the exam and study materials on Wednesday, June 9th at 11:00 am CDT.
+
+Ask questions here or on [Slido.com](https://app.sli.do/event/hb6ucaf2/live/questions) using code **#AskAnythingCEP**. Questions will be answered live during the event!
+
+https://preview.redd.it/9a6pdfulvw371.jpg?width=1280&amp;format=pjpg&amp;auto=webp&amp;s=86f419176e483930342756b5b950a97c4f3e5532
+
+Video link to join will be made available the day of event."
+ethereum,"Justin Bram Reviews the Lattice1: ""GridPlus Lattice1: The most secure hardware wallet?""",
+ethereum,"Polygon, now a popular goto layer 2 solution for the Ethereum Blockchain",
+ethereum,GAS fees are super low,
+ethereum,Peep-an-EIP with Pooja Ranjan on new beacon chain features in Altair (including light client sync committees),
+ethereum,Altair: Beacon chain upgrade with Danny R. &amp; Vitalik B.," **Altair: Beacon chain upgrade**
+
+Danny Ryan and Vitalik Buterin shared the details of penalty parameter, inactivity score, sync committee, Lightclient sync protocol and more on [PEEPanEIP](https://www.youtube.com/playlist?list=PL4cwHXAawZxqu0PKKyMzG_3BJV_xZTi1F). Follow the [recording](https://youtu.be/iaAEGs1DMgQ) for an in-depth explanation of features in [\#Altair](https://twitter.com/hashtag/Altair?src=hashtag_click). 
+
+Also, watch [Accounting reform with Alex Stokes](https://youtu.be/KdhHJa2SEwY).
+
+Resources:
+
+* Danny's slides:  [https://drive.google.com/file/d/1NJUTaiNsN5sP9qyeNTY7O8qrWQezedGa/view?usp=sharing](https://drive.google.com/file/d/1NJUTaiNsN5sP9qyeNTY7O8qrWQezedGa/view?usp=sharing) 
+* Annotated specs: [https://github.com/ethereum/annotated-spec/blob/master/altair/beacon-chain.md#beacon-state-mutators](https://github.com/ethereum/annotated-spec/blob/master/altair/beacon-chain.md#beacon-state-mutators)
+* Eth2 specs: [https://github.com/ethereum/eth2.0-specs/releases](https://github.com/ethereum/eth2.0-specs/releases)
+* HF1 proposal - [https://notes.ethereum.org/@vbuterin/HF1\_proposal](https://notes.ethereum.org/@vbuterin/HF1_proposal)
+* Altair - Accounting reform with Alex Stokes - [https://www.youtube.com/watch?v=KdhHJa2SEwY](https://www.youtube.com/watch?v=KdhHJa2SEwY)
+* Consensus Layer Proposals playlist - [https://www.youtube.com/playlist?list=PL4cwHXAawZxoEw29YmqJtNoFaENUUAREn](https://www.youtube.com/playlist?list=PL4cwHXAawZxoEw29YmqJtNoFaENUUAREn)"
+ethereum,Wallet ledger for ethereum from Amazon.,"Hi all, I have some ethereum on Coinbase. It’s not much but I’m committing to buying a small amount each week for the next year or so. As such, I want to buy a wallet ledger. I don’t know at all what I’m doing at all so I’m hoping you guys can give some recommendations for some ledgers I can buy on Amazon. Are they safe? Is it easy to transfer from Coinbase? What do I need to do have everything secure once I have the ledger. Any help is much appreciated."
+ethereum,... What?,
+ethereum,Popular Phillips Auction House Accepts Crypto for Banksy’s Artwork,
+ethereum,"As a Bitcoin holder, Eth makes complete sense to me.","I don’t understand why I continue to see Bitcoin holders try and bash Eth, saying it’s a shitcoin/alt coin and will never replace Bitcoin (as if replacing Bitcoin is even possible at this point. It isn’t). 
+
+I also don’t understand why I see Eth investors bash Bitcoin and state that one day Eth could replace Bitcoin. It can’t, and it’s never tried to nor is it designed to.
+
+Bitcoin = reserve asset, store of value.
+
+Eth = Web 3.0, future infrastructure of the digital world. 
+
+They will both exist, and both are profound inventions that couldn’t be more different. Their differences are precisely why they both have tremendous value.
+
+Why the comparisons, then? Is it just fundamental lack of understanding by those comparing of what they’re talking about?
+
+For transparency I’m 95/5 BTC/Eth in personal holdings."
+ethereum,ETH - bETH doubt,
+ethereum,Texas Governor Signs Law Creating Legal Framework for Crypto Investments,
+ethereum,Wallet Suggestions,"I’ve been holding my ETH on Binance now for a couple of weeks but i’m looking to move it into a secure wallet. Could you guys suggest to me the most reputable apps to store my coins in? I read through the forum and someone suggested Argent.
+
+Also could anyone explain or link me to what staking is?
+
+Thanks!"
+ethereum,"ENS Grants, Round 1: 180 ETH to Gitcoin Grants","Brantly Millegan Jun 7 · 2 min read The Ethereum Name Service (ENS) project is pleased to announce a donation of 180 ETH to Gitcoin Grants, the largest quadratic funding system for blockchain public goods. This ETH will be dispersed to grantees that have ENS integrated over the course of the next few grants rounds. ... [Read more](https://nftnewstoday.com/2021/06/07/ens-grants-round-1-180-eth-to-gitcoin-grants/)
+
+The post [ENS Grants, Round 1: 180 ETH to Gitcoin Grants](https://nftnewstoday.com/2021/06/07/ens-grants-round-1-180-eth-to-gitcoin-grants/) appeared first on [NFT News Today](https://nftnewstoday.com).
+
+   
+   
+ from WordPress https://ift.tt/3z3odeF
+   
+ via [IFTTT](https://ifttt.com/?ref=da&amp;site=reddit)"
+ethereum,"Pong, not Programs - Josh Stark",
+ethereum,Any questions for next week's Ethereum Cat Herders 'Peep an EIP' - EIPs 3540 (EVM Object Format) and 3541 (Reject 0xEF contracts),"Many of you will be familiar with the ['Peep an EIP'](https://www.youtube.com/playlist?list=PL4cwHXAawZxqu0PKKyMzG_3BJV_xZTi1F) video series that the Ethereum Cat Herders put together. This is where we get the EIP authors and editors to talk us through upcoming changes in their own words.
+
+Last week Danny and Vitalik took us through [Altair upgrade changes...](https://youtu.be/iaAEGs1DMgQ) **Next week's Peep an EIP will feature:**
+
+* [EIP-3541](https://eips.ethereum.org/EIPS/eip-3541): Reject new contracts starting with the 0xEF byte (this is included in the London upgrade in July, along with 1559)
+* [EIP-3540](https://eips.ethereum.org/EIPS/eip-3540): EVM Object Format (EOF) v1 (being considered for the Shanghai upgrade, which will be before or after The Merge TBC)
+
+The EIP authors - Alex Beregszaszi, Paweł Bylica, and Andrei Maiboroda - will be covering these and taking questions.
+
+**If you have any questions on EIPs 3540 and 3541, post as a comment here** by 18:30 UTC on Wednesday and we'll do our best to put them to the authors on the call."
+ethereum,Sourcify is hiring a TypeScript Developer,
+ethereum,Ethereum is Freedom - The Daily Gwei #263,
+ethereum,ForUsAll + Coinbase Introduce Crypto into your 401K,
+ethereum,"The Big Four smart contract rollup chains - Arbitrum, Optimistic Ethereum, zkSync 2.0 and StarkNet",
+ethereum,Easier way of transacting ETH for any other coin on trust wallet,Having used uni swap to exchange eth for a coin with the max option as the gas fees are just stupid. After paying gas fee and transferring the coin I can see there is still $20 of eth left over . Absolute waste of a transaction. can honestly say I’m sick to death of Etherum as it’s just stolen $20 of transaction I can’t use. Very disappointed with this system
+ethereum,Staking farm?,"Hi, I've been reading about the planned transition of Ethereum from mining to staking. I know for staking uptime is essential, and SSD space probably also matters. But I wanted to ask what components are necessary to stake at a largeish scale? If a computer with a single GPU is a basic mining rig, and a massive multi-GPU setup is a farm, what's the equivalent of that for Eth 2.0? A threadripper with a ton of SSDs attached?"
+ethereum,ETH gas fees dropped below 2$ on Sunday. The latest drop in gas fees now sees #Ethereum transactions as being more viable once again.,
+ethereum,Sienta’s Newsletter: No. 3 – Weekly updates on real-world assets in DeFi,
+ethereum,Lost Private Keys question,"Hello all, 
+
+I'm researching solutions for governments who want to use the Ethereum blockchain for various types of applications, such as Land Registry, VAT tracking, and possibly minting their own tokens on top the the blockchain.  One of the biggest problems that I can see is the consequences of a government losing control of their private keys.  This would seem like a showstopper vulnerability for many risk-averse government ministries.  
+
+Can anybody suggest any possible solutions that might satisfy governments that this risk can be mitigated or even eliminated?
+
+Thanks"
+ethereum,Do I have to pay taxes and when,"I mine as a hobby, and I’ve made about 12$ so far. I’m in the US by the way. I’m talking like do I really really have to? What happens if I don’t? Will I get arrested? When do I have to pay? When I’m selling, when I’m just holding, you know? Thanks"
+ethereum,Can dapps and defi be created on bitcoin or do we need ethereum?,"Hi gang, pretty new to crypto but learning programming and would like to become a blockchain developer, I just listened to a Robert Kiyosaki interview with Robert Breedlove, he had rather an interesting response when asked about ethereum, and basically said layer 2 solutions dapps etc can be developed on the bitcoin blockchain, is that even a thing? I thought that was why ethereum was created."
+ethereum,Is arbitrage/flash loans or yield farming still worthwhile?,So I just have experience with smart contracts using solidity but I have not made any DApps nor do I have experience coding in relation to DEXs. Are these methods worthwhile learning or has it become too competitive?
+ethereum,Elon Musk Reveals Surprise Support For Ethereum Cofounder’s ‘Amazing’ Plan To Upgrade ‘Joke’ Bitcoin Rival Dogecoin,
+ethereum,Satisfied yet?,
+ethereum,‘One Giant Step For Decentralization’: An Ethereum Node Is Now At The International Space Station,
+ethereum,Is staking 0.1224 ETH worth and what platform should I use?,I currently have a little ETH in my port and am wondering if only 0.1224 is even worth due to the fees associated with transferring crypto. Also what are the risks and what platform is the best?
+ethereum,Ethereum Nodes and Shards: simplified explanation for beginners.,"
+
+https://blockgeeks.com/guides/what-are-ethereum-nodes-and-sharding/
+
+
+Here is a simplified explanation of how Ethereum scalability limitations are being addressed by Sharding. This publication did a great job of explaining it to me (a non/technically educated person) like I’m 5.... ok maybe more like 10.  Hope this helps to educate you as much as it helped me."
+ethereum,"For bitcoiners, it's bitcoin vs fiat. For ethereans, fiat and bitcoin are just dapps in the broader Ethereum ecosystem (Dai, USDC, wBTC, etc).",Ethereum is bigger and more fundamental than fiat and bitcoin.
+ethereum,Is PoS rent-seeking?,"So if Ethereum goes full PoS and I have a lot of ETH, can I just stake and earn the yield?"
+ethereum,"Since 3 years ago till now, 10 million ETH has been locked in DeFi and 5 million has been staked since ETH 2.0 Genesis! 15m, just the beginning IMO",The Ethereum community is unstoppable!
+ethereum,Is this a glitch? ETH TPS down to 6.35?,"Source: [https://blockchair.com/ethereum/charts/transactions-per-second](https://blockchair.com/ethereum/charts/transactions-per-second)
+
+I checked it out today and I saw a MASSIVE drop in TPS from 15 on 4 June to 6.35 today (7 June). Is this for real or is it just a glitch / delay in the data? Or maybe the source is not reliable? 
+
+What do you guys think?"
+ethereum,Turning ETH into a stable coin and then sending to hardware wallet?,"Does that just cause more tax implications. It seems to me the best way though to avoid any market changes, this way you basically have your money locked, plus it won't be on an exchange anymore. Only downside is I'm reading it might cause double tax??"
+ethereum,Is the Ropsten Network down?,I've been trying to deploy a smart contract for the last 5 hours and it's still pending! I also tried to request some test ether to a different account and that transaction is pending as well. Anyone else experiencing this?
+ethereum,How long does a block reward take to post to external account?,
+ethereum,"Bitcoin Miami Conference warns attendees it's a ""Bitcoin"" not ""Crypto"" conference and not to talk about other coins. Floyd Mayweather:",
+ethereum,NFTs &amp; IP 3: Combining ERC721 &amp; ERC20,
+ethereum,Update concerning the delay of Rocket Pool,
+ethereum,Looking for a way to stake my ETH without giving it to an exchange,"As far as I'm aware, one can stake with say Kraken for example without 32 ETH but I am wondering if there is a community of people that round their funds together like a pool and stake privately instead of going the centralized way. I don't have 32 ETH but I still wish to stake."
+ethereum,how would you withdraw millions to a bank without being suspicious?,"obviously i dont have this...maybe one day which is why i am just thinking about it. Say i withdraw 5 million dollars from an exchange to a bank...the bank is going to be like WTF, right?"
+ethereum,Whats up with gas fees?,"Hi all, I've only been involved with crypto since March and know most of you have probably seen gas fees this low before. But I sure haven't! Anyone have any ideas what's causing gas fees to be so low? Looks like network capacity is still pegged right around 100% according to etherscan"
+ethereum,"Alibaba, Google Among More Than 300 Companies Seeking Singapore Crypto Licenses",
+ethereum,How to empty a wallet to exactly zero?,"Can someone help me with the math. I want to empty wallet A (x ether) to wallet B (0 ether) so the balance of A is exactly zero. Is it:
+
+X - gas * 21000/1000000000 = NET ether
+
+So NET is the amountof ether, I put in the send box?"
+ethereum,What determines Ethereum's level of decentralization?,"Hey Etherians,   
+
+
+I'm trying to compare the level of decentralization of different blockchains.
+
+Is it best to compare the number of nodes?
+
+Ethereum: \~5,600 [https://etherscan.io/nodetracker](https://etherscan.io/nodetracker)  
+Bitcoin: \~9,600 [https://bitnodes.io/](https://bitnodes.io/)  
+
+
+How would I introduce the unique number of nodes?  
+
+
+Thank you."
+ethereum,"Is this a crude, albeit fair representation of the difference in abilities to code for BTC and ETH?","Say we want to count to ten.
+
+    // Ethereum Count to Ten
+    let e = 0;
+    function ethereum() {
+      while (e&lt;= 10) {e++;}
+    }
+    ethereum()
+    
+    
+    // Bitcoin Count to Ten
+    let b = 0;
+    function bitcoin() {
+      b++;
+      b++;
+      b++;
+      b++;
+      b++;
+      b++;
+      b++;
+      b++;
+      b++;
+      b++;
+      b++;
+    }
+    bitcoin()
+
+I'm trying to demonstrate, in the simplest of terms, what would happen if you wanted to count to 10,000,000 and why it's not as feasible with BTC as opposed to ETH.   Please let me know if this if I am misunderstanding the differences / concepts."
+ethereum,Would shorter block times reduce MEV?,"Assumption: blocks are twice as frequent and have half the blockspace each (so blockspace per time remains constant)
+
+Does this reduce MEV per time? (say 2 quicker &amp; smaller vs 1 regular block)
+
+
+The thought I had:
+
+As a simplification let's assume there are n transactions in a small &amp; quick block and the miner can decide their order (this absolutely simplifies how the mempool and MEV works, maybe this is a critical flaw in my thought?). 
+There are n! possible permutations for how transactions can be ordered combinatorically. In two of the small &amp; quick blocks, miners hence have 2*(n!) of options. The regular block holds 2n transactions which allow (2*n)! permutations.
+
+As 2*(n!) &lt; (2*n)!, n&gt;1, the optionality is superadditive, ie bigger, when combining the two smaller &amp; quicker blocks. If MEV is a function of optionality, the smaller blocks would reduce MEV per time.
+
+
+Any ideas/existing material on this?"
+ethereum,Current --syncmode 'fast' geth node size?,I've done a few searches but can only see data related to the full node size. Does anyone happen to know what a fast sync node size is at the moment using Geth?
+ethereum,So.. Netflix's Startup series,"How does this factor into the promotion/ popularization of crypto in a whole? I'm 3 episodes in, no mention of blockchain tech yet. Used for laundering dubious money, some outcast hacker doing it for the greater good.. I heard some truth, but thus far.. Well..  Curious to hear your thoughts!"
+ethereum,"Think twice before getting a y.at address, you can do the same with eth.",
+ethereum,Where can I find the most comprehensive learning materials for ethereum?,"I work in IT and I would like to expand my knowledge of ETH technology. I know the general idea of crypto and ETH but I want to learn how it's applied. Normally I would google it but I've been finding that difficult. You have to weed through all the scammers and very high level videos that just give you buzzwords like decentralized and smart contracts. 
+I want to learn how to utilize ETH to build applications.
+
+Thanks in advance!"
+ethereum,Ethereum Oracle for equities prices?,"Hi all, 
+
+Are there any oracles for determining the current price of a given equity on the blockchain?  Also, how would such oracle work, given that prices can fluctuate on a millisecond basis?  Wouldn't such an oracle massively bloat the blockchain with information that is only relevant on a very short term basis?
+
+Thanks"
+ethereum,Ethereum node now live in space 🌚,
+ethereum,Telos EVM Is a Game Changer — Here’s Why,
+ethereum,"LIVE webcam feed from starboard truss of International Space Station (near where SpaceChain's Ether node is installed, I believe)",
+ethereum,I prepared a video to help beginners start with Web3!,"Hey guys!
+
+In order to help the community, I prepared a video for beginners.
+
+I explain in the video how to download install and open a new Metamask wallet.
+
+I also cover the basic features that will help them get started.
+
+Will be more than happy to hear your feedback.
+
+Please feel free to share with friends that are struggling.
+
+Here is the video:
+
+[https://www.youtube.com/watch?v=KcZ34jXyy8w](https://www.youtube.com/watch?v=KcZ34jXyy8w)
+
+P.S: I Will appreciate also it if you like the video so Youtube will push it to more beginners that can learn from it!
+
+Thanks!"
+ethereum,I don’t understand this graph. Why is 1 Gwei gas price faster to confirm than 9Gwei gas price?,
+ethereum,ETHosphere timeline update for 6 June.,
+ethereum,"Help me better understand gwei, eth and gas fees.","Is eth 2 gonna basically lower the cost to do transactions. Is that gonna lower the amount of gwei needed? 
+
+Why isn't lowering the transaction cost gonna lower the price of eth?"
+ethereum,Ethereum Foundation Unicorns,"Starting from around March 2016, if you donated 2.14 ETH or more to the Ethereum Foundation Tip Jar you received a Unicorn ERC721 token. There are only 2,701 Unicorns in existence and only 361 holders. Unicorns are a very rare piece of early Ethereum history.
+
+Ethereum Unicorns contract address: [https://etherscan.io/address/0x89205a3a3b2a69de6dbf7f01ed13b2108b2c43e7](https://etherscan.io/address/0x89205a3a3b2a69de6dbf7f01ed13b2108b2c43e7)
+
+Ethereum Unicorns tracker: [https://etherscan.io/token/0x89205a3a3b2a69de6dbf7f01ed13b2108b2c43e7](https://etherscan.io/token/0x89205a3a3b2a69de6dbf7f01ed13b2108b2c43e7)
+
+The donation page is offline now so I don't know if new Unicorns are still being minted for donations: [https://www.ethereum.org/donate](https://www.ethereum.org/donate)
+
+Despite how rare these unicorns are, I'm not aware of any sites where they can be traded? Has anyone seen or heard of them being traded anywhere?"
+ethereum,What programming language does the pseudo-code uses in EIP,"I was reading the EIPs and noticed some code blocks that looks like pseudo-code, that defines the data types, classes and methods with a syntax unknown to me. Is that an actual language, or an abstract programming description standard?
+
+Would be great to know if it's an actual language, and learn more about it. Thanks."
+ethereum,Understanding Ethereum's rollup-centric roadmap,
+ethereum,Fast and inexpensive transactions,"I just wanted to share with everyone that Ethereum gas fees are very low right now. I just transferred ETH from Coinbase Pro to a hot wallet for $1.08 and the transaction was complete in seconds. 
+
+If you’ve got any moving around to do, now is a great opportunity.
+
+
+Edit: 10 GWEI ($.060) plus $0.48 Coinbase Pro fee"
+ethereum,"Say you have millions worth of ETH, what about the bank??","I'm using eth as an example but really any crypto. Obviously I don't have this money but say I had 5 million dollars worth of a crypto. I go to withdraw to my bank, surely they are going to flag this and probably freeze the account. See I want to avoid that it it ever comes down to me having this amount of money"
+ethereum,Eth/Blockchain Stock Market ?,"A while ago I heard people talking about building a NYSE 2.0 with blockchain to modernize the stock market but haven't heard much about it in a while, anyone seen anything on this concept lately? 
+
+&amp;#x200B;
+
+Thanks!"
+ethereum,"[Higher Quality] Ethereum Wallpaper for Smartphones, tips appreciated",
+ethereum,Use cases for ENS domains?,"I just registered mine since I wanted to ensure I had it reserved... But now that I have it, I realize that I don't really see many use cases. Other than being able to provide a human-readable link to one of my wallets, what am I missing? I'm down to own it just as a placeholder (it was like 0.02Eth for a decade, lol) but would love to make use of it since I have it now. 
+
+Thanks to any and all for suggestions!"
+ethereum,"ZkSNARKs QAP from Vitalik's blog, how do you calculate R1CS solution vector?","Hi guys. From this blog post:
+
+https://vitalik.ca/general/2016/12/10/qap.html
+
+There's the solution
+
+[1, 3, 35, 9, 27, 30]
+
+Which Vitalik says about calculating it:
+
+You can compute this for yourself by simply ""executing"" the flattened code above, starting off with the input variable assignment x=3, and putting in the values of all the intermediate variables and the output as you compute them.
+
+But how? Can someone please show me how this is done with the gate vectors/matrices we created? The reason for my confusion is that the constraint equation seems to translate everything to scalars."
+ethereum,Best Ethereum conference?,I see a lot of people going to the Bitcoin conference to talk crypto generally. I've heard of devcon... what is the best Ethereum centric conference that I should put on my calendar?
+ethereum,"First time crypto noob, in the you all’s opinion what was the best platform to use? Thank you very much! 😃",Edit: Platform to buy.
+ethereum,“Everyone is talking about Ethereum“ at Bitcoin 2021,
+ethereum,What’s New in Eth2 - 5 June 2021 -- Edition #70,
+ethereum,Can cryptos really become legal tender?,"If a crypto like Bitcoin becomes legal tender, then every payment made is a trade. The buyer is in a short position while the seller is in a long position. That said, how can a crypto obtain price stability? Yes, fiat decreases in value because of inflation but the gradual inflation for a long period of time is still more stable than the volatility of crypto market price in a very short period of time."
+ethereum,Can we please finally block Cardano shilling in this sub? It's off topic and a constant distraction.,"EDIT: A lot of Cardano shills are here trolling about ""rising tide floats all boats"" and tribe mentality maximalism etc. 
+
+You are more than welcome to buy Cardano and any other coin you want.
+
+But the quality of this sub goes down when Cardano brigaders and shills come here pumping it and it's entirely off topic.
+
+There's a reason why ETH trading and ETH mining discussions are sent to other subs -- because they're off topic!
+
+How can we claim to have any intellectual integrity of we delete ETH mining/price/trading posts for being off topic, but allow Cardano shilling?  Or what about shilling from other blockchains?
+
+There's a simple rule for almost any sub. No off-topic posts.
+
+If someone wants to see Cardano spam they can go to /r/Cardano
+
+I don't know why this is the Ethereum &amp; Carano sub.  It's called /r/Ethereum."
+ethereum,Ethereum is scaling while maintaining security!,
+ethereum,I'm from El Salvador and I'm here to clarify some things about the BTC adoption recently announced.,
+ethereum,"Etherium.com vs Ethereum.com, I wonder what those emails say...",
+ethereum,"Ethereum and Cardano Co-Founders, Praises Each Other Took to amazement by Buterin’s comments, Charles Hoskinson made a tribute via a live video of 15 minutes, of himself on his official YouTube page. In the live video, Hoskinson praised Buterin for his growth physically into a matured, confident lea",
+ethereum,PoS will never happen,"Ethereum going to PoS will never happen. The notion is just a way to get free, positive publicity from news outlets. It keeps getting delayed because the people who matter know it would be a disaster . If PoS was really superior from an investing standpoint people would invest in an actual PoS coin instead of a coin that could possibly go PoS."
+ethereum,POAP explained succinctly. An awesome (non-financial) protocol built on Ethereum that has potential to become ubiquitous.,
+ethereum,Anyone Else Receiving Eth Randomly?,"Received random eth from this address [https://etherscan.io/address/0xeb2629a2734e272bcc07bda959863f316f4bd4cf](https://etherscan.io/address/0xeb2629a2734e272bcc07bda959863f316f4bd4cf)
+
+As you can see, they're tossing massive amounts to tens of thousands of addresses, and it's not dusting afaik. If anyone has any info on this, if it's a type of attack, or what to do, I'd appreciate any help. Thanks"
+ethereum,"The future of money: The digital currency revolution is here, and may sweep away 5,000 years of monetary history",
+ethereum,Spotted in Miami today,
+ethereum,Careers outside of Dev within the Blockchain Community?,"I am fascinated with blockchain technology and its capacity to change our future as we know it. I am not a dev by any means, and to be honest, I lack the programming skills required to be one. I have always had a well-developed background with soft skills and feel there has to be other ways to get involved. Are there other career opportunities within the blockchain community that would be suitable to these particular skills? It would be an honor to find a path in helping to create a more accessible world via blockchain for those who do not have the opportunity at this time. Any ideas or suggestions as a way to get involved would be immensely appreciated!"
+ethereum,Is weth backed by eth?,I can't find any info on Ox or radar relay.
+ethereum,Ethereum and Cardano are both a few years old. Eth has many projects building on its platform while Cardano barely has any. Why is that?,"Same for Polkadot, and it's only a year old. Cardano does not seem to attract developers and projects. Why do you think this is?
+
+I've heard:
+1) The Haskell programming language is difficult to master or just very different than traditional programming languages.
+2) Eth and Dot gave a lot of funds away to projects building on their platforms, while Cardano focused on development and peer reviewed research implementation instead.
+3) Cardano does not have smart contracts yet while Eth and Dot (sort of) do. Cardano is incomplete to the point it's not worth it to build on it yet. 
+4) Cardano doesn't sufficiently add any improvements over Eth or other smart contract coins. 
+
+
+I'm wondering if any of this is true and what you think about the lack of projects building on Cardano?"
+ethereum,Interesting narratives coming out of Bitcoin 2021 about ETH flippening,
+ethereum,Wrapped Bitcoin - The Bridge to Decentralised Finance,
+ethereum,How to Migrate Liquidity from Uniswap V2 to Uniswap V3,
+ethereum,"""Hey Craig Wright's legal team, do you hear me? Yes. I still think your client is a scammer""",
+ethereum,Ethereum Meetup,
+ethereum,Thoughts on The Infinite Machine by Camila Russo?,Am looking for books to learn more about ether; any other suggestions would be greatly appreciated too.
+ethereum,Elon Musk pretty much agrees with Vitalik,
+ethereum,Ethereum Could Soon Steal Bitcoin's Thunder as Inflationary Hedge,
+ethereum,"As of today, there are 159288 ETH being held by companies in their balance sheets - CrypoTreasuries.org",
+ethereum,"I interviewed the founders of an Ethereum-based project to fight counterfeit with 100,000 active users (80% non-technical women!) in China, Wabi. We discussed CBDCs, mass adoption, retail use cases, and supply chain blockchains. Thought y'all might like it :)",
+ethereum,OpenSea Initial Fee confirmation time,"Hi Guys i was setting up my OpenSea Account for the first time and the intialization with the first transaction is already taking 2h even though [etherscan.io](https://etherscan.io) says its been confirmed.
+
+Did i do something wrong?"
+ethereum,Ethereum Tx Cost?,"When I transferred ETH and other ERC20 tokens to my Ledger there were obv some transaction fees. So I noticed through etherscan.io that when transferring ERC20 tokens, my transaction was charged in ETH, not the native ERC20 token -- so I added up all the ETH transaction fees and figured that I should have less ETH in my wallet, but I have more -- also, my ERC20 tokens are less than when I took them off Coinbase. Can someone help me understand this? Is it taking a portion in ETH and a portion in native token? 📷"
+ethereum,Eth Gas Station estimates reliable?,"So I was just taking a look at [https://ethgasstation.info/](https://ethgasstation.info/) and currently, they are saying that they recommend a gas price of 17 gwei for traders. Yet also display that the average gas cost on Uniswap is over 100 and similarly for basically all other contracts...
+
+Why such as large discrepancy? Is it just that the average is strongly skewed by periods of high congestion or that the network is currently very unusually quiet?"
+ethereum,Can Crypto . Com alter or sell coins you stake through them?,"I'm looking into staking some coins, particularly eth, but the way I read the terms of service, it sounds like I'm handing over full control to Crypto . Com if I stake through them, and they can sell/trade my coins at their own discretion, is this correct? Or are my coins guaranteed to come out as the coins I staked them?"
+ethereum,Bitcoin and Ethereum Now Accepted for Rent at Manhattan Office Buildings,
+ethereum,SpaceX will launch an Ethereum (ETH) node to the International Space Station (ISS),[https://www.sciencetimes.com/articles/31489/20210601/spacex-to-deploy-first-ethereum-node-to-iss-in-collaboration-with-spacechain.htm](https://www.sciencetimes.com/articles/31489/20210601/spacex-to-deploy-first-ethereum-node-to-iss-in-collaboration-with-spacechain.htm)
+ethereum,Interesting open letter,"https://t.co/wjILrh6DYw
+
+Hey @lexfridman, you might want to read this. My first contribution to @RealCoinGeek is an open letter to you, sir. $bsv"
+ethereum,I'm not understanding GAS prices.,"I have a Trezor, and I want to move some ERC20 to a hidden wallet. I don't care how long it takes, I just don't want to pay more than say $3.    I see now on gasnow, the fees are low (\~$0.67 at 12 GWEI).
+
+But when I go into the Trezor to send it, the app tells me the fee is $6.36 on the normal setting. If I change to CUSTOM, this is where I get confused.
+
+It won't let me change the GAS LIMIT down to 61,000 which I read is the lowest for ERC20. It requires it at 200,000.   To get under $3, I have to set the gas price to 5 GWEI but that is much lower than the current fees.
+
+What is going on? Why are my fees still so much higher than the current fees?
+
+&amp;#x200B;
+
+Sorry to sound like a noob! Thank you."
+ethereum,Tikkun Olam dApp - rectifying the world with Ethereum and IPFS,
+ethereum,"Conjures launch brings traditional assets onto Ethereum by allowing for user created Synths using arbitrary oracles. Platform fee disbursal to holders, permissionless Synthetic Asset creation, interest free CDPs.",
+ethereum,Tutorial for ethereum merge testnet implementation from Nethermind,
+ethereum,A proposal for how the ability for validators to change their keys (also useful for delegation) with no downtime could be added,
+ethereum,Some less-appreciated benefits of Ethereum's PoS,"We talk a lot about the much lower resource expenditure that PoS requires compared to PoW, and about key benefits like economic finality, but it's also worth keeping in mind some secondary benefits that the switch to PoS will bring. Most of these benefits will theoretically become available *immediately* after the merge.
+
+* **Block time distribution**: in PoW, blocks are distributed according to a [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution), so there is a high variance between the time between two blocks. On average you get one block per 13 seconds, but there are occasional intervals where there's more than 30 or even more than 60 seconds between two blocks. When you send a transaction, on average you have to wait 13 seconds for the next block to appear. In PoS, blocks appear on a regular schedule: one block per 12 seconds, and when you send a transaction, on average you have to wait 6 seconds. The only exception is skipped proposers, which are rare. Combined with EIP 1559, this will massively improve Ethereum's UX.
+* **Faster pre-finality confirmation**: we talk about finality, where after \~2 epochs a block gets confirmed in such a way that it cannot feasibly be reverted. But even before then, security ramps up much more quickly than in PoW, because the LMD GHOST fork choice rule with hundreds of attestations in parallel creates much faster convergence than PoW's ""one consensus step per block"" model. After even just 12 seconds, a block already has hundreds of attesters supporting it, already making it very hard to revert.
+* **Better light client protocols**: light clients for PoW ethereum [exist](https://medium.com/@rauljordan/a-primer-on-ethereum-blockchain-light-clients-f3cadde49137), but they are far less efficient than they could be, and they still require quite a bit of time and resources to turn on and maintain. The PoS light client protocol is [much more well-designed](https://github.com/ethereum/eth2.0-specs/blob/dev/specs/altair/sync-protocol.md) after learning from this experience, and requires only a minimum few kilobytes per day to stay in sync. This can make in-browser and mobile PoS light client wallets much more viable, reducing trust on centralized providers.
+* **Faster ability to detect network issues**: in a PoW network, if half of nodes go offline or start acting improperly because of a bug, hack or attack, it takes some time for this to become known, because at first there's not enough information to distinguish what's going on from random chance. In a PoS network, on the other hand, you can easily see participation dropping from 99% to something much lower within a single slot, and you immediately know that something is going on.
+
+There are also many smaller secondary benefits. The PoS switch gives us a natural opportunity to coordinate on a time when the ETH network protocol stops supporting the pre-merge chain, resetting the amount of data that clients need to download. The existing data structures in the beacon chain (particularly the historical block root and state root list) make accessing history from within the EVM much easier (the same benefit that [EIP 2935](https://eips.ethereum.org/EIPS/eip-2935) was trying to accomplish). The SSZ structure makes history proofs of any kind much easier to implement; additionally, a more complete switch from RLP to SSZ could significantly simplify Merkle proof generation for the protocol in general.
+
+The merge isn't just about the switch to proof of stake by itself; there's a lot more that we get along with it!"
+ethereum,Beacon chain uptime has been amazing lately; we even hit 99.8% for some blocks,
+ethereum,A quick explanation of what the point of the EIP 2929 gas cost increases in Berlin is,"The Berlin hard fork primarily consisted of gas cost change EIPs: [EIP 2565](https://eips.ethereum.org/EIPS/eip-2565) (modexp gas cost reduction), [EIP 2929](https://eips.ethereum.org/EIPS/eip-2929) (SLOAD and \*CALL gas cost increase), and EIPs [2718](https://eips.ethereum.org/EIPS/eip-2718) and [2930](https://eips.ethereum.org/EIPS/eip-2930) to support compatibility for contracts affected by the gas cost increase as well as setting the stage for future upgrades.
+
+By far the most important of these is EIP 2929. The core idea is this: the gas cost of SLOAD is increased from 800 to 2100, and the gas cost for CALL (including STATICCALL, DELEGATECALL and other opcodes) and external contract queries (BALANCE, EXTCODESIZE...) is increased from 700 to 2600, *but only in the case where the address or storage slot is being accessed for the first time in that transaction*.
+
+The purpose of this is further DoS protection: earlier research [showed that](https://arxiv.org/pdf/1909.07220.pdf) storage access is the largest remaining DoS vulnerability in the Ethereum protocol, and it was possible to create some blocks that simply repeatedly accessed many accounts that would take as long as 80 seconds to process. The fix was a simple quick fix: make the thing that takes a long time (storage accesses requiring disk access) cost more gas, so this DoS issue can be \~3x weaker. In parallel with this, there has been some excellent work in the client teams implementing on-disk storage caches, reducing the number of database lookups required for storage loads and plugging this hole even further.
+
+The gas cost repricing and these client improvements together make the existing chain safer, and make higher gas limits safer than they are today. After EIP 2929, the main reason to avoid large gas limit increases may actually be not DoS concerns, but state size growth (those these two things interplay: storage loads cost more when there is more storage). Hence, work on [state expiry and statelessness](https://hackmd.io/@vbuterin/state_expiry_paths) is going to be important, and probably should be priority #1 post-merge.
+
+A second longer-term benefit of this repricing is that the maximum theoretical witness size for [stateless verification](https://dankradfeist.de/ethereum/2021/02/14/why-stateless.html) is reduced by \~3x. We are going to need another repricing for reading code (something like: 500 gas per 31-byte chunk of code accessed), but this can be done later.
+
+Notable, the EIP only increases the gas cost of the *first* access per transaction. Subsequent accesses are actually made cheaper (100 gas in all cases). Additionally, calls to precompiles always cost 100 gas including the first call. This has some excellent positive consequences:
+
+* Any use case of SLOAD followed by SSTORE (or SSTORE followed by SLOAD) of the same slot becomes cheaper. This is because the first storage read or write pays for accessing the storage slot, so it is already ""warm"" and the second read or write is cheaper; instead of a cost of 800 + 5000, we get a cost of 2100 + 2900 (approximately), a reduction of \~800. This may make ERC20 sends *cheaper*.
+* Self-calling becomes cheaper
+* Calls to precompiles become cheaper (this is especially valuable for low-gas-cost precompiles that many need to get called many times, like ECADD)
+
+The first-access rule was added because when an account or storage slot is accessed the second time, that account or storage slot should already be cached in memory, so an expensive disk access is not required. And of course, two accesses of the same value also only require one witness entry.
+
+TLDR:
+
+* Yes, some things will get more expensive. But they have to be for security.
+* But on the other hand, things that should have been cheaper all along (storing then loading the same slot) *will* finally be cheaper.
+* Another important benefit is that moderately increasing the gas limit becomes safer. The main remaining impediment to *large* gas limit increases will likely be state size issues."
