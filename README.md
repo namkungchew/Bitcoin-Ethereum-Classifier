@@ -3,29 +3,15 @@
 
 ## Table of Contents:
 
-### Part 1
-
 1. Background
 1. Problem Statement
 1. Executive Summary
 1. Data Cleaning
-    1. Data Dictionary
-1. Exploratory Data Analysis
-1. Features Selection
-    1. Quantitative
-    1. Qualitative
-    1. Summary
-    
-### Part 2
-7. Modeling
-    1. Base Case
-1. Fine Tuning
-    1. Model 1
-    1. Model 2
-    1. Model 3
-    1. Model 4
-    1. Model 5
-    1. Final Model
+1. Models
+    1. Preprocessing
+    1. Different Combinations of Vectorizers and Classifiers
+    1. Fine tuning and selecting final model
+    1. Final Choosen Model: CountVectorizer with MultinomialNB
 1. Conclusion and Recommendations
 1. References and Data Sources
 
