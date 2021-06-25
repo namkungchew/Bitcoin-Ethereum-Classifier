@@ -17,7 +17,7 @@
 1. References and Data Sources
 
 ## 1. Background
-Our stalkholder is a cryto exchange platform which offer trading for Bitcoin and Ethereum. They are interested to monitor the posts on their user discussion forum and divide the posts into Bitcoin / Ethereum posts so as to identify which crytocurrency is generating greater interest.
+We have been engaged by a local trading exchange who is looking to issue a new crytocurrency contract to tap on the current hot cryto craze. They are currently deciding between a Bitcoin future contract or a Ethereum future contract. They are interested to monitor the posts on their user discussion forum on crytos and divide these posts into Bitcoin / Ethereum posts. They believe this can help to identify which crytocurrency is generating greater interest and thus the contract issued will generate the better interest and liquidity fast.
 
 ---
 ## 2. Problem Statement
