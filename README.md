@@ -31,7 +31,10 @@ Our strategy on building this NLP classification model is to try various combina
 
 Our best model is a Multinominal Naive Bayes Model with Count Vectoriser. This model achieve an accuracy of 84.5% on unseen data and 88% on seen data. We feel that this model is the best because firstly it is the model with the highest accuracy. It is not overfitting and have reasonable variance. Our best params are the following: 'cvec__max_df': 0.1, 'cvec__max_features': 1000, 'cvec__min_df': 3, 'cvec__ngram_range': (1, 2), 'nb__alpha': 0.5. When we look the top words that differientate between Bitcoins and Ethereum. We can resonate with them (more of these in the final model section). The posts that were misclassified are mostly spam posts. Also it is the fastest to tune and compute over GridSearchCV when we have to refit our model with new data in the future.
 
-At this moment, we are only training our model with 1309 data points with 4541 features and we have to cap the number of features to prevent overfitting. When we have more data, we can improve our accuracy by refitting it to our model and relaxing some of the hyperparameters used to control the overfitting.
+In conclusion, we believe our model is adequte to solve the problem statement.
+
+Going forward, as we are only training our model with 1309 data points with 4541 features, we have to cap the number of featur
+es to prevent overfitting. When we have more data, we can improve our accuracy by refitting it to our model and relaxing some of the hyperparameters used to control the overfitting.
 
 ---
 ## Data Dictionary
@@ -55,7 +58,7 @@ One of the challenges we face during the course of this project is that our mode
 
 We choose Multinominal Naive Bayes with CountVectorizer as our final model as it is the model that still maintain its highest accuracy score and also is not overfitted. Also it is the fastest to tune and compute over GridSearchCV. Our best params are the following: 'cvec__max_df': 0.1, 'cvec__max_features': 1000, 'cvec__min_df': 3, 'cvec__ngram_range': (1, 2), 'nb__alpha': 0.5
 
-We are satisfied with our results that it 84.5% accurate which beat the baseline accuracy by 24.8% and is better than the other models by 2-3%. Also the train score and test score are not significantly different thus not overfitting. This meet our goal of being able to differentiate and classify posts into Bitcoins posts and Ethereum posts reasonably well. We also resonate with the most important features in this model and they are similar with the most important features in other models as well. A look at the posts which are misclassified show these posts mainly outliers which are either spam or didn't belong to either classes which we cannot differentiate with our human brains either. 
+We are satisfied with our results that it 84.5% accurate which beat the baseline accuracy by 24.8% and is better than the other models by 2-3%. Also the train score and test score are not significantly different thus not overfitting. This meet our goal of being able to differentiate and classify posts into Bitcoins posts and Ethereum posts reasonably well. We also resonate with the most important features in this model and they are similar with the most important features in other models as well. A look at the posts which are misclassified show these posts mainly outliers which are either spam or didn't belong to either classes which we cannot differentiate with our human brains either. In short, we believe our model to be adequte to solve the problem statement.
 
 Going forward, since most of our models show overfitting due to the larger number of features to our dataset, we can improve our accuracy by gathering more data given time and refitting it to our model and relaxing some of the hyperparameters used to control the overfitting.
 
